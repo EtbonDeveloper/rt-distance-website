@@ -30,7 +30,6 @@ header {
 
 footer {
     background-color: #27282c;
-    height: 265px;
     color: #636363;
     line-height: 28px;
 }
@@ -156,7 +155,7 @@ a:active {
     display: none;
     width: 100%;
     position: absolute;
-    background-color: #282a36;
+    background-color: #27282c;
     padding-bottom: 20px;
 }
 
@@ -276,10 +275,6 @@ a:active {
         font-size: 14px;
     }
 
-    footer {
-        height: 285px;
-    }
-
     h2 {
         font-size: 16px;
     }
@@ -298,10 +293,6 @@ a:active {
     header {
         height: 60px;
         line-height: 60px;
-    }
-
-    footer {
-        height: 400px;
     }
 
     h2 {
