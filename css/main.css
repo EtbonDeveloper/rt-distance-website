@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+html, body {
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+    height: 100%;
+}
+
+button, h3, h1, span, a {
+    font-family: inherit;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+header {
+    background-color: #27282c;
+    height: 85px;
+    line-height: 85px;
+}
+
+footer {
+    background-color: #27282c;
+    height: 265px;
+    color: #636363;
+    line-height: 28px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+li, p {
+    line-height: 28px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+footer > div > p {
+    font-style: italic;
+}
+
+a:active, a:hover, a {
+    text-decoration: none;
+    color: initial;
+}
+
+a:active { 
+    text-decoration: underline; 
+}
+
+#lesson-info > a {
+    color: #f55145;
+}
+
+#lesson-info > a:hover {
+    color: #fa9332;
+}
+
+.relation {
+    margin: 10px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.about {
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+    user-select: initial;
+    color: #bfa200;
+    font-style: inherit;
+}
+
+.about:hover {
+    color: #e0be00;
+}
+
+.container-color3 > ul > li > a {
+    color: #187187;
+}
+
+.container-color3 > ul > li > a:hover {
+    color: #1f9bab;
+}
+
+.container {
+    width: 461px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#refresh-lesson-info-btn {
+    display: block;
+    width: 160px;
+    height: 45px;
+    margin: 15px auto 0 auto;
+    background-color: #75bf7b;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#refresh-lesson-info-btn:active {
+    background-color: #519157;
+}
+
+#which-lesson, #classroom-codes {
+    text-align: center;
+}
+
+.container-color1 {
+    background-color: #cceafc;
+    box-shadow: -4px 4px 10px 1px #c1dee8;
+}
+
+.container-color2 {
+    background-color: #ccfcce;
+    box-shadow: -4px 4px 10px 1px #bcebbe;
+}
+
+.container-color3 {
+    background-color: #fccccc;
+    box-shadow: -4px 4px 10px 1px #ebbcbc;
+}
+
+.header-text {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+/* alt block */
+
+.alt-wrapper {
+    display: none;
+    height: 60px;
+}
+
+.alt-header-btns {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #282a36;
+    padding-bottom: 20px;
+}
+
+.alt-header-btn > button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #008C8C;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.alt-header-btn > button:active {
+    background-color: #307175;
+}
+
+.alt-left-btn {
+    float: left;
+}
+
+.alt-right-btn {
+    float: right;
+}
+
+.alt-left-btn > button {
+    left: 10px;
+}
+
+.alt-right-btn > button {
+    right: 10px;
+}
+
+/* end alt block */
+
+.header-btns {
+    position: absolute;
+    width: 100%;
+}
+
+.header-btn > button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #008C8C;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.header-btn > button:active {
+    background-color: #307175;
+}
+
+.left-btn, .right-btn {
+    display: inline;
+}
+
+.left-btn {
+    float: left;
+}
+
+.right-btn {
+    float: right;
+}
+
+.left-btn > button {
+    left: 10px;
+}
+
+.right-btn > button {
+    right: 10px;
+}
+
+/* media blocks */
+
+@media (max-width: 965px) {
+    .header-text {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 930px) {
+    .header-text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 810px) {
+    .header-btn {
+        display: none;
+    }
+
+    .alt-header-btns {
+        display: block;
+    }
+
+    .alt-wrapper {
+        display: block;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    footer {
+        height: 285px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 385px) {
+    .header-text {
+        font-size: 16px;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+}
