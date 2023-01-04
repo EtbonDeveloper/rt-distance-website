@@ -103,8 +103,6 @@ const timetable = {
 
 const daysDict = {1: 'Понеділок', 2: 'Вівторок', 3: 'Середа', 4: 'Четвер', 5: 'П\'ятниця'};
 
-document.querySelectorAll('.calls').forEach(btn => btn.onclick = () => location.href = '../rt-distance-website/pages/calls.html');
-document.querySelectorAll('.classes').forEach(btn => btn.onclick = () => location.href = '../rt-distance-website/pages/classes.html');
 document.querySelector('#refresh-lesson-info-btn').onclick = () => writeLessonInfoInTag(getLessonInfo(getLessonTime()));
 
 const getLessonTime = () => {
@@ -147,5 +145,3 @@ const writeLessonInfoInTag = lessonInfo => {
 };
 
 writeLessonInfoInTag(getLessonInfo(getLessonTime()));
-
-setTimeout(() => document.querySelectorAll('a').forEach(el => el.setAttribute('target', '_blank')), 0);

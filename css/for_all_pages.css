@@ -5,8 +5,12 @@
     padding: 0;
 }
 
-*::selection {
+::selection {
     background-color: rgba(255, 255, 255, 0.35);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 html, body {
@@ -15,7 +19,7 @@ html, body {
     height: 100%;
 }
 
-button, h3, h1, span, a {
+button, h1, h3, span, a {
     font-family: inherit;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -28,10 +32,22 @@ header {
     line-height: 85px;
 }
 
+main {
+    flex: 1 1 auto;
+}
+
 footer {
     background-color: #27282c;
     color: #636363;
     line-height: 28px;
+}
+
+footer > .container {
+    padding: 0;
+}
+
+footer > div > p {
+    font-style: italic;
 }
 
 h3 {
@@ -42,16 +58,8 @@ h2 {
     font-size: 18px;
 }
 
-li, p {
+p {
     line-height: 28px;
-}
-
-ol, ul {
-    padding-left: 30px;
-}
-
-footer > div > p {
-    font-style: italic;
 }
 
 a:active, a:hover, a {
@@ -63,92 +71,14 @@ a:active {
     text-decoration: underline; 
 }
 
-#lesson-info > a {
-    color: #f55145;
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-#lesson-info > a:hover {
-    color: #fa9332;
-}
-
-.relation {
-    margin: 10px 0;
-    text-align: center;
-    font-style: italic;
-}
-
-.about {
-    -webkit-user-select: initial;
-    -moz-user-select: initial;
-    user-select: initial;
-    color: #bfa200;
-    font-style: inherit;
-}
-
-.about:hover {
-    color: #e0be00;
-}
-
-.container-color3 > ul > li > a {
-    color: #187187;
-}
-
-.container-color3 > ul > li > a:hover {
-    color: #1f9bab;
-}
-
-.container {
-    width: 461px;
-    margin: 40px auto;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-#refresh-lesson-info-btn {
-    display: block;
-    width: 160px;
-    height: 45px;
-    margin: 15px auto 0 auto;
-    background-color: #75bf7b;
-    border: 0;
-    border-radius: 10px;
-    color: #fff;
-}
-
-#refresh-lesson-info-btn:active {
-    background-color: #519157;
-}
-
-#which-lesson, #classroom-codes {
-    text-align: center;
-}
-
-.container-color1 {
-    background-color: #cceafc;
-    box-shadow: -4px 4px 10px 1px #c1dee8;
-}
-
-.container-color2 {
-    background-color: #ccfcce;
-    box-shadow: -4px 4px 10px 1px #bcebbe;
-}
-
-.container-color3 {
-    background-color: #fccccc;
-    box-shadow: -4px 4px 10px 1px #ebbcbc;
-}
-
-.header-text {
-    color: #fff;
-    text-align: center;
-    font-style: italic;
-}
-
-/* alt block */
-
-.alt-wrapper {
+.line-trans {
     display: none;
-    height: 60px;
 }
 
 .alt-header-btns {
@@ -157,6 +87,16 @@ a:active {
     position: absolute;
     background-color: #27282c;
     padding-bottom: 20px;
+}
+
+.header-btns {
+    position: absolute;
+    width: 100%;
+}
+
+.alt-wrapper {
+    display: none;
+    height: 60px;
 }
 
 .alt-header-btn > button {
@@ -187,13 +127,6 @@ a:active {
 
 .alt-right-btn > button {
     right: 10px;
-}
-
-/* end alt block */
-
-.header-btns {
-    position: absolute;
-    width: 100%;
 }
 
 .header-btn > button {
@@ -230,7 +163,84 @@ a:active {
     right: 10px;
 }
 
-/* media blocks */
+.header-text {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+.relation {
+    margin: 10px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.about {
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+    user-select: initial;
+    color: #bfa200;
+    font-style: inherit;
+}
+
+.about:hover {
+    color: #e0be00;
+}
+
+.container {
+    width: 461px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: 18px;
+    }
+
+    .line-trans {
+        display: initial;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 385px) {
+    .header-text {
+        font-size: 16px;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+}
 
 @media (max-width: 965px) {
     .header-text {
@@ -261,48 +271,6 @@ a:active {
 
     .alt-wrapper {
         display: block;
-    }
-
-    header {
-        height: 60px;
-        line-height: 60px;
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        width: 350px;
-        font-size: 14px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-text {
-        font-size: 18px;
-    }
-
-    .container {
-        width: 250px;
-        font-size: 12px;
-    }
-
-    header {
-        height: 60px;
-        line-height: 60px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 385px) {
-    .header-text {
-        font-size: 16px;
     }
 
     header {
