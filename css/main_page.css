@@ -41,17 +41,20 @@ ol, ul {
     text-align: center;
 }
 
-.container-color1 {
-    background-color: #cceafc;
-    box-shadow: -4px 4px 10px 1px #c1dee8;
+@media (max-width: 480px) {
+    ol, ul {
+        padding-left: 22px;
+    }
 }
 
-.container-color2 {
-    background-color: #ccfcce;
-    box-shadow: -4px 4px 10px 1px #bcebbe;
-}
+@media (max-width: 350px) {
+    #refresh-lesson-info-btn {
+        font-size: 10px;
+        width: 130px;
+        height: 35px;
+    }
 
-.container-color3 {
-    background-color: #fccccc;
-    box-shadow: -4px 4px 10px 1px #ebbcbc;
+    ol, ul {
+        padding-left: 20px;
+    }
 }

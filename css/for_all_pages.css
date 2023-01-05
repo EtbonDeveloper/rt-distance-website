@@ -77,6 +77,21 @@ a:active {
     flex-direction: column;
 }
 
+.container-color1 {
+    background-color: #cceafc;
+    box-shadow: -4px 4px 10px 1px #c1dee8;
+}
+
+.container-color2 {
+    background-color: #ccfcce;
+    box-shadow: -4px 4px 10px 1px #bcebbe;
+}
+
+.container-color3 {
+    background-color: #fccccc;
+    box-shadow: -4px 4px 10px 1px #ebbcbc;
+}
+
 .line-trans {
     display: none;
 }
@@ -194,54 +209,6 @@ a:active {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
-    .container {
-        width: 350px;
-        font-size: 14px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        width: 250px;
-        font-size: 12px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-text {
-        font-size: 18px;
-    }
-
-    .line-trans {
-        display: initial;
-    }
-
-    header {
-        height: 60px;
-        line-height: 60px;
-    }
-}
-
-@media (max-width: 385px) {
-    .header-text {
-        font-size: 16px;
-    }
-
-    header {
-        height: 60px;
-        line-height: 60px;
-    }
-}
-
 @media (max-width: 965px) {
     .header-text {
         font-size: 28px;
@@ -276,5 +243,74 @@ a:active {
     header {
         height: 60px;
         line-height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .header-text {
+        font-size: 18px;
+    }
+
+    .line-trans {
+        display: initial;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 385px) {
+    .header-text {
+        font-size: 16px;
+    }
+
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-text {
+        font-size: 14px;
+    }
+
+    .calls, .classes, .index {
+        font-size: 12px;   
+    }
+
+    .alt-header-btn > button, .header-btn > button {
+        width: 130px;
+    }
+
+    .container {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 12px;
     }
 }
