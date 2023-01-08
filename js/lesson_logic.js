@@ -52,7 +52,7 @@ const timetable = {
         '11:30': {
 	        'lesson': 'Укр. мова та Укр. літ',
 	        'classroom_code': 'Укр. мова: zuwqrzq. Укр. літ: pgeaznn',
-            'zoom_refs': 'Постійне посилання на конференцію: <a href="http://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'zoom_refs': 'Постійне посилання на конференцію: <a href="http://meet.google.com/vrf-myve-ytb">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    }
     },
     4: {
@@ -74,7 +74,7 @@ const timetable = {
         '13:00': {
 	        'lesson': 'Укр. мова',
 	        'classroom_code': 'zuwqrzq',
-            'zoom_refs': 'Постійне посилання на конференцію: <a href="http://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'zoom_refs': 'Постійне посилання на конференцію: <a href="http://meet.google.com/vrf-myve-ytb">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    }
     },
     5: {
