@@ -1,2 +1,0 @@
-document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = '../index.html');
-document.querySelectorAll('.classes').forEach(btn => btn.onclick = () => location.href = './classes.html');

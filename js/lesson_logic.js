@@ -103,45 +103,58 @@ const timetable = {
 
 const daysDict = {1: 'Понеділок', 2: 'Вівторок', 3: 'Середа', 4: 'Четвер', 5: 'П\'ятниця'};
 
-document.querySelector('#refresh-lesson-info-btn').onclick = () => writeLessonInfoInTag(getLessonInfo(getLessonTime()));
+document.querySelector('#refresh-lesson-info-btn').onclick = () => writeLessonInfoInTag(getLessonInfoObj(getLessonTimeInfoObj()));
 
-const getLessonTime = () => {
+const getLessonTimeInfoObj = () => {
     const hours = new Date().getHours();
     const minutes = new Date().getMinutes();
+    const currentTime = new Date().toLocaleTimeString();
     let lessonTime;
 
-    if (hours >= 8 && minutes >= 30 && hours < 10)
+    if (((hours >= 8 && minutes >= 30) || (hours >= 9)) && hours < 10)
         lessonTime = '08:30';
-    else if (hours >= 11 && minutes >= 30 && hours < 13)
+    else if (((hours >= 11 && minutes >= 30) || (hours >= 12)) && hours < 13)
         lessonTime = '11:30';
     else if (hours >= 10 && hours < 13)
         lessonTime = '10:00';
     else if (((hours >= 13 && hours < 14) || (hours >= 14 && minutes < 30)) && hours < 15)
         lessonTime = '13:00';
 
-    return lessonTime;
+    return { lessonTime, hours, currentTime };
 };
 
-const getLessonInfo = lessonTime => {
+const getLessonInfoObj = lessonTimeInfoObj => {
     const dayOfWeek = new Date().getDay();
+    lessonTimeInfoObj['dayOfWeek'] = dayOfWeek;
 
     try {
-        return timetable[dayOfWeek][lessonTime];
+        lessonTimeInfoObj['lessonInfo'] = timetable[dayOfWeek][lessonTimeInfoObj['lessonTime']];
     } catch {
-        return undefined;
+        lessonTimeInfoObj['lessonInfo'] = null;
+    } finally {
+        return lessonTimeInfoObj
     }
 };
 
-const writeLessonInfoInTag = lessonInfo => {
+const writeLessonInfoInTag = lessonInfoObj => {
     const htmlLessonInfoParagraph = document.getElementById('lesson-info');
-    const currentTime = new Date().toLocaleTimeString();
+    const { lessonInfo, hours, dayOfWeek, currentTime } = lessonInfoObj;
+
     if (lessonInfo) {
-        htmlLessonInfoParagraph.innerHTML = `${daysDict[new Date().getDay()]}:<br>
+        htmlLessonInfoParagraph.innerHTML = `${daysDict[dayOfWeek]}:<br>
         Сьогодні о ${currentTime} у нас за розкладом: ${lessonInfo['lesson']}.<br>
         Код або посилання classroom: ${lessonInfo['classroom_code']}<br>
         ${lessonInfo['zoom_refs']}`;
-    } else
-        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари вже закінчилися, або сьогодні вихідний, відпочивайте!`;
+    } else if (dayOfWeek === 6 || dayOfWeek === 7) {
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. Сьогодні вихідний,
+        відпочивайте!`;
+    } else if (hours >= 0 && hours < 9) {
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари ще не розпочалися,
+        відпочивайте!`;
+    } else {
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари вже закінчилися,
+        відпочивайте!`;
+    }
 };
 
-writeLessonInfoInTag(getLessonInfo(getLessonTime()));
+writeLessonInfoInTag(getLessonInfoObj(getLessonTimeInfoObj()));
