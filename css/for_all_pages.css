@@ -42,11 +42,11 @@ footer {
     line-height: 28px;
 }
 
-footer > .container {
+footer .container {
     padding: 0;
 }
 
-footer > div > p {
+footer p {
     font-style: italic;
 }
 
@@ -114,7 +114,7 @@ a:active {
     height: 60px;
 }
 
-.alt-header-btn > button {
+.alt-header-btn button {
     position: relative;
     width: 150px;
     height: 40px;
@@ -124,7 +124,7 @@ a:active {
     color: #fff;
 }
 
-.alt-header-btn > button:active {
+.alt-header-btn button:active {
     background-color: #307175;
 }
 
@@ -136,15 +136,15 @@ a:active {
     float: right;
 }
 
-.alt-left-btn > button {
+.alt-left-btn button {
     left: 10px;
 }
 
-.alt-right-btn > button {
+.alt-right-btn button {
     right: 10px;
 }
 
-.header-btn > button {
+.header-btn button {
     position: relative;
     width: 150px;
     height: 40px;
@@ -154,7 +154,7 @@ a:active {
     color: #fff;
 }
 
-.header-btn > button:active {
+.header-btn button:active {
     background-color: #307175;
 }
 
@@ -170,11 +170,11 @@ a:active {
     float: right;
 }
 
-.left-btn > button {
+.left-btn button {
     left: 10px;
 }
 
-.right-btn > button {
+.right-btn button {
     right: 10px;
 }
 
@@ -301,7 +301,7 @@ a:active {
         font-size: 12px;   
     }
 
-    .alt-header-btn > button, .header-btn > button {
+    .alt-header-btn button, .header-btn button {
         width: 130px;
     }
 

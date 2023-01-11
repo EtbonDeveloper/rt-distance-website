@@ -6,19 +6,19 @@ ol, ul {
     padding-left: 30px;
 }
 
-#lesson-info > a {
+#lesson-info a {
     color: #f55145;
 }
 
-#lesson-info > a:hover {
+#lesson-info a:hover {
     color: #fa9332;
 }
 
-.container-color3 > ul > li > a {
+.container-color3 a {
     color: #187187;
 }
 
-.container-color3 > ul > li > a:hover {
+.container-color3 a:hover {
     color: #1f9bab;
 }
 
