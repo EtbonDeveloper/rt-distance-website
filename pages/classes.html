@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Розклад занять</title>
     <link rel="stylesheet" href="../css/for_all_pages.css">
-    <style>#timetable-header, .timetable {text-align: center;}</style>
+    <style>#timetable-header {text-align: center;}</style>
 </head>
 <body>
     <div class="wrapper">
@@ -40,36 +40,8 @@
         </div>
         <main>
             <div class="container container-color2">
-                <h3 id="timetable-header">Розклад занять:</h3>
-                <div>
-                    <p>Понеділок:</p>
-                    <p>1 пара - Історія України</p>
-                    <p>2 пара - Основи теорії кіл</p>
-                    <p>3 пара - Інженерна графіка</p>
-                    <br>
-                    <p>Вівторок:</p>
-                    <p>1 пара - Технології</p>
-                    <p>2 пара - Захист вітчизни</p>
-                    <p>3 пара - Фізика</p>
-                    <p>4 пара - Фізична культура</p>
-                    <br>
-                    <p>Середа:</p>
-                    <p>1 пара - Охорона праці</p>
-                    <p>2 пара - Програмування</p>
-                    <p>3 пара - Математика</p>
-                    <p>4 пара - Захист Вітчизни/Укр. мова</p>
-                    <br>
-                    <p>Четвер:</p>
-                    <p>1 пара - Іноземна мова</p>
-                    <p>2 пара - Фізична культура</p>
-                    <p>3 пара - Математика</p>
-                    <p>4 пара - Стандартизація</p>
-                    <br>
-                    <p>П'ятниця:</p>
-                    <p>1 пара - Вища математика</p>
-                    <p>2 пара - Укр. літ</p>
-                    <p>3 пара - Біологія</p>
-                </div>
+                <h3 id="timetable-header">Розклад занять:</h3>   
+                <p id="timetable"></p>
             </div>
         </main>
         <footer>
@@ -81,10 +53,10 @@
             </div>
         </footer>
     </div>
+    <script type="module" src="../js/timetable.js"></script>
     <script>
         document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = '../index.html');
         document.querySelectorAll('.calls').forEach(btn => btn.onclick = () => location.href = './calls.html');
-        document.querySelectorAll('a').forEach(el => el.setAttribute('target', '_blank'));
     </script>
 </body>
 </html>
