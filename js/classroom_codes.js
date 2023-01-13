@@ -16,7 +16,7 @@ for (const dayOfWeek in schedule) {
         if (provenProperties.includes(lesson) || lesson.includes(' або '))
             continue;
 
-        codesList.innerHTML += `<li><span>${lesson}: </span>${classroomCode}</li>`;
+        codesList.innerHTML += `<li>${lesson}: ${classroomCode}</li>`;
         provenProperties.push(lesson);
     }
 }

@@ -15,7 +15,7 @@ const schedule = {
 	        'lesson': 'Інженерна графіка',
 	        'classroom_code': 'idfnskr',
             'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
-	    },
+	    }
     },
     2: {
         'strDayOfWeek': 'Вівторок',
