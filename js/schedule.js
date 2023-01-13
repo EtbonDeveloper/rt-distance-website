@@ -3,8 +3,8 @@ const schedule = {
         'strDayOfWeek': 'Понеділок',
         '08:30': {
 	        'lesson': 'Історія України',
-	        'classroom_code': 'x4wh3k7',
-            'zoom_refs': 'Discord: <a href="https://discord.gg/CWrxRjr6aT">Натисни на мене, щоб перейти до Discord сервера.</a>'
+	        'classroom_code': 'x4wh3k7<br>Discord сервер Історії України: <a href="https://discord.gg/CWrxRjr6aT">Натисни на мене, щоб перейти до Discord сервера.</a>',
+            'zoom_refs': 'Заходьте на пару в Discord сервері.'
 	    },
 	    '10:00': {
 	        'lesson': 'Теорія кіл',
@@ -20,7 +20,7 @@ const schedule = {
     2: {
         'strDayOfWeek': 'Вівторок',
         '08:30': {
-	        'lesson': 'Технологія',
+	        'lesson': 'Технології',
 	        'classroom_code': 'md3a47s',
             'zoom_refs': 'Постійне посилання на zoom: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1">Натисни на мене, щоб перейти до zoom конференції.</a>'
 	    },

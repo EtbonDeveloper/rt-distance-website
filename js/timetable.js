@@ -1,6 +1,7 @@
 import schedule from './schedule.js';
 
 const timetable = document.querySelector('#timetable');
+timetable.innerHTML = '';
 
 for (const dayOfWeek in schedule) {
     let lessonCounter = 1;

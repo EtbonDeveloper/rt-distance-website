@@ -1,6 +1,7 @@
 import schedule from './schedule.js';
 
 const codesList = document.querySelector('#classroom-codes');
+codesList.innerHTML = '';
 const provenProperties = [];
 
 for (const dayOfWeek in schedule) {
