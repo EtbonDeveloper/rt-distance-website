@@ -22,21 +22,6 @@ ol, ul {
     color: #1f9bab;
 }
 
-#refresh-lesson-info-btn {
-    display: block;
-    width: 160px;
-    height: 45px;
-    margin: 15px auto 0 auto;
-    background-color: #75bf7b;
-    border: 0;
-    border-radius: 10px;
-    color: #fff;
-}
-
-#refresh-lesson-info-btn:active {
-    background-color: #519157;
-}
-
 #which-lesson, #classroom-codes-header {
     text-align: center;
 }
@@ -48,12 +33,6 @@ ol, ul {
 }
 
 @media (max-width: 350px) {
-    #refresh-lesson-info-btn {
-        font-size: 10px;
-        width: 130px;
-        height: 35px;
-    }
-
     ol, ul {
         padding-left: 20px;
     }

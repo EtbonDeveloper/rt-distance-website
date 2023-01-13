@@ -1,6 +1,6 @@
 import schedule from './schedule.js';
 
-document.querySelector('#refresh-lesson-info-btn').onclick = () => writeLessonInfoInTag(getLessonInfoObj(getLessonTimeObj(getCurrentDateTimeObj())));
+setInterval(() => writeLessonInfoInTag(getLessonInfoObj(getLessonTimeObj(getCurrentDateTimeObj()))), 1000);
 
 const getCurrentDateTimeObj = () => {
     const date = new Date();
