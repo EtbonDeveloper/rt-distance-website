@@ -43,14 +43,14 @@ const schedule = {
     3: {
         'strDayOfWeek': 'Середа',
         '08:30': {
-	        'lesson': 'Охорона праці',
+	        'lesson': 'Безпека життєдіяльності',
 	        'classroom_code': 'Ще невідомо',
             'zoom_refs': 'Ще невідомо'
 	    },
         '10:00': {
 	        'lesson': 'Основи програмування',
 	        'classroom_code': 'yw4r6xa',
-            'zoom_refs': 'Ще невідомо'
+            'zoom_refs': 'Постійне посилання на Програмування: <a href="https://meet.google.com/uxe-ebcb-dbs">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
 	        'lesson': 'Математика або Захист Вітчизни',
