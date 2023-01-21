@@ -44,8 +44,8 @@ const schedule = {
         'strDayOfWeek': 'Середа',
         '08:30': {
 	        'lesson': 'Безпека життєдіяльності',
-	        'classroom_code': 'Ще невідомо',
-            'zoom_refs': 'Ще невідомо'
+	        'classroom_code': 'p766acy',
+            'zoom_refs': 'Постійне посилання на безпеку життєдіяльності: <a href="https://meet.google.com/met-uedi-wko">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '10:00': {
 	        'lesson': 'Основи програмування',
@@ -60,7 +60,7 @@ const schedule = {
 	    '13:00': {
 		    'lesson': 'Укр. мова',
 	        'classroom_code': 'zuwqrzq',
-            'zoom_refs': 'Постійне посилання на Укр. мову: <a href="http://meet.google.com/vrf-myve-ytb">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'zoom_refs': 'Постійне посилання на Укр. мову: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    }
     },
     4: {
@@ -96,7 +96,7 @@ const schedule = {
         '10:00': {
 	        'lesson': 'Укр. літ',
 	        'classroom_code': 'pgeaznn',
-            'zoom_refs': 'Постійне посилання на конференцію: <a href="http://meet.google.com/vrf-myve-ytb">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'zoom_refs': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
 	        'lesson': 'Біологія',
