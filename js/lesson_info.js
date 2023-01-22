@@ -44,13 +44,14 @@ const getLessonInfoObj = (lessonTimeObj) => {
 const writeLessonInfoInTag = (lessonInfoObj) => {
     const htmlLessonInfoParagraph = document.getElementById('lesson-info');
     const { lessonInfo, hours, dayOfWeek, currentTime, strDayOfWeek } = lessonInfoObj;
+    console.log(dayOfWeek);
 
     if (lessonInfo) {
         const { lesson, classroom_code, zoom_refs } = lessonInfo;
         htmlLessonInfoParagraph.innerHTML = `${strDayOfWeek}:<br>
         Сьогодні о ${currentTime} у нас за розкладом: ${lesson}.<br>
         Код або посилання classroom: ${classroom_code}<br>${zoom_refs}`;
-    } else if (dayOfWeek === 6 || dayOfWeek === 7) {
+    } else if (dayOfWeek === 6 || dayOfWeek === 0) {
         htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. Сьогодні вихідний,
         відпочивайте!`;
     } else if (hours >= 0 && hours < 9) {
