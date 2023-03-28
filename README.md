@@ -1,15 +1,16 @@
 # **rt-distance-website**
 
-### _Deploy website status:_
+### _Статус развёртывания веб-сайта:_
 ![Deploy site status](https://github.com/EtbonDeveloper/rt-distance-website/actions/workflows/pages/pages-build-deployment/badge.svg)
 
-## **What can you do with this website:**
-1. Have access to current lessons;
-2. Have access to current classroom codes or reference;
-3. Know about call timetable;
-4. Know about subject timetable.
+## **Что вы можете делать используя этот веб-сайт:**
+1. Получить полный доступ к информации о текущей паре в реальном времени;
+2. Получить полный доступ к classromm кодам и ссылкам;
+3. Посмотреть расписание звонков;
+4. Посмотреть расписание предметов;
+5. Создать собственное приложение используя возможности моего API. 
 
-## **Why the website was created:**
-> To facilitate access to all student information of our group, as well as from personal creative interests and help to the group.
+## **Для чего был создан веб-сайт:**
+> Первостепенная причина создания этого веб-сайта — это моё хобби, без моего желания и стремления всего этого не было бы. А второстепенная — это помощь моим одногрупникам, на моём веб-сайте они могут получить любую нужную им информацию в реальном времени и даже больше..
 
-***Follow the link to visit my website: [my website link](https://etbondeveloper.github.io/rt-distance-website/).***
+***Перейдите по этой ссылке чтобы посетить мой веб-сайт: https://etbondeveloper.github.io/rt-distance-website/***
