@@ -1,107 +1,107 @@
 {
     "1": {
-        "strDayOfWeek": "Понеділок",
+        "str_day_of_week": "Понеділок",
         "08:30": {
-	        "lesson": "Історія України",
+	        "lesson_name": "Історія України",
 	        "classroom_code": "x4wh3k7",
-            "zoom_refs": "https://discord.gg/CWrxRjr6aT"
+            "lesson_link": "https://discord.gg/CWrxRjr6aT"
 	    },
 	    "10:00": {
-	        "lesson": "Теорія кіл",
+	        "lesson_name": "Теорія кіл",
 	        "classroom_code": "xbwv4zc",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "11:30": {
-	        "lesson": "Інженерна графіка",
+	        "lesson_name": "Інженерна графіка",
 	        "classroom_code": "idfnskr",
-            "zoom_refs": null
+            "lesson_link": null
 	    }
     },
     "2": {
-        "strDayOfWeek": "Вівторок",
+        "str_day_of_week": "Вівторок",
         "08:30": {
-	        "lesson": "Технології",
+	        "lesson_name": "Технології",
 	        "classroom_code": "md3a47s",
-            "zoom_refs": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1"
+            "lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1"
 	    },
         "10:00": {
-	        "lesson": "Захист Вітчизни",
+	        "lesson_name": "Захист Вітчизни",
 	        "classroom_code": "npgncuz",
-            "zoom_refs": "https://meet.google.com/qag-kqao-znf"
+            "lesson_link": "https://meet.google.com/qag-kqao-znf"
 	    },
         "11:30": {
-	        "lesson": "Фізика",
+	        "lesson_name": "Фізика",
 	        "classroom_code": "ioi25s6",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "13:00": {
-	        "lesson": "Фізична культура",
+	        "lesson_name": "Фізична культура",
 	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-            "zoom_refs": null
+            "lesson_link": null
 	    }
     },
     "3": {
-        "strDayOfWeek": "Середа",
+        "str_day_of_week": "Середа",
         "08:30": {
-	        "lesson": "Безпека життєдіяльності",
+	        "lesson_name": "Безпека життєдіяльності",
 	        "classroom_code": "p766acy",
-            "zoom_refs": "https://meet.google.com/met-uedi-wko"
+            "lesson_link": "https://meet.google.com/met-uedi-wko"
 	    },
         "10:00": {
-	        "lesson": "Основи програмування",
+	        "lesson_name": "Основи програмування",
 	        "classroom_code": "yw4r6xa",
-            "zoom_refs": "https://meet.google.com/uxe-ebcb-dbs"
+            "lesson_link": "https://meet.google.com/uxe-ebcb-dbs"
 	    },
         "11:30": {
-	        "lesson": "Математика/Захист Вітчизни",
+	        "lesson_name": "Математика/Захист Вітчизни",
 	        "classroom_code": "ikkjwrr/npgncuz",
-            "zoom_refs": "null/https://meet.google.com/qag-kqao-znf"
+            "lesson_link": "null/https://meet.google.com/qag-kqao-znf"
 	    },
 	    "13:00": {
-		    "lesson": "Українська мова",
+		    "lesson_name": "Українська мова",
 	        "classroom_code": "zuwqrzq",
-            "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
+            "lesson_link": "https://meet.google.com/kgj-repw-nmh"
 	    }
     },
     "4": {
-        "strDayOfWeek": "Четвер",
+        "str_day_of_week": "Четвер",
         "08:30": {
-	        "lesson": "Іноземна мова",
+	        "lesson_name": "Іноземна мова",
 	        "classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "10:00": {
-	        "lesson": "Фізична культура",
+	        "lesson_name": "Фізична культура",
 	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "11:30": {
-	        "lesson": "Математика",
+	        "lesson_name": "Математика",
 	        "classroom_code": "ikkjwrr",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "13:00": {
-	        "lesson": "Стандартизація",
+	        "lesson_name": "Стандартизація",
 	        "classroom_code": "6ogqnj7",
-            "zoom_refs": null
+            "lesson_link": null
 	    }
     },
     "5": {
-        "strDayOfWeek": "П'ятниця",
+        "str_day_of_week": "П'ятниця",
         "08:30": {
-	        "lesson": "Вища математика",
+	        "lesson_name": "Вища математика",
 	        "classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
-            "zoom_refs": null
+            "lesson_link": null
 	    },
         "10:00": {
-	        "lesson": "Українська література",
+	        "lesson_name": "Українська література",
 	        "classroom_code": "pgeaznn",
-            "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
+            "lesson_link": "https://meet.google.com/kgj-repw-nmh"
 	    },
         "11:30": {
-	        "lesson": "Біологія",
+	        "lesson_name": "Біологія",
 	        "classroom_code": "oeu36uo",
-            "zoom_refs": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09"
+            "lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09"
 	    }
     }
 }
