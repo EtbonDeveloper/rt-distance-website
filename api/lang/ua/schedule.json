@@ -1,0 +1,107 @@
+{
+    "1": {
+        "strDayOfWeek": "Понеділок",
+        "08:30": {
+	        "lesson": "Історія України",
+	        "classroom_code": "x4wh3k7",
+            "zoom_refs": "https://discord.gg/CWrxRjr6aT"
+	    },
+	    "10:00": {
+	        "lesson": "Теорія кіл",
+	        "classroom_code": "xbwv4zc",
+            "zoom_refs": null
+	    },
+        "11:30": {
+	        "lesson": "Інженерна графіка",
+	        "classroom_code": "idfnskr",
+            "zoom_refs": null
+	    }
+    },
+    "2": {
+        "strDayOfWeek": "Вівторок",
+        "08:30": {
+	        "lesson": "Технології",
+	        "classroom_code": "md3a47s",
+            "zoom_refs": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1"
+	    },
+        "10:00": {
+	        "lesson": "Захист Вітчизни",
+	        "classroom_code": "npgncuz",
+            "zoom_refs": "https://meet.google.com/qag-kqao-znf"
+	    },
+        "11:30": {
+	        "lesson": "Фізика",
+	        "classroom_code": "ioi25s6",
+            "zoom_refs": null
+	    },
+        "13:00": {
+	        "lesson": "Фізична культура",
+	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+            "zoom_refs": null
+	    }
+    },
+    "3": {
+        "strDayOfWeek": "Середа",
+        "08:30": {
+	        "lesson": "Безпека життєдіяльності",
+	        "classroom_code": "p766acy",
+            "zoom_refs": "https://meet.google.com/met-uedi-wko"
+	    },
+        "10:00": {
+	        "lesson": "Основи програмування",
+	        "classroom_code": "yw4r6xa",
+            "zoom_refs": "https://meet.google.com/uxe-ebcb-dbs"
+	    },
+        "11:30": {
+	        "lesson": "Математика/Захист Вітчизни",
+	        "classroom_code": "ikkjwrr/npgncuz",
+            "zoom_refs": "null/https://meet.google.com/qag-kqao-znf"
+	    },
+	    "13:00": {
+		    "lesson": "Українська мова",
+	        "classroom_code": "zuwqrzq",
+            "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
+	    }
+    },
+    "4": {
+        "strDayOfWeek": "Четвер",
+        "08:30": {
+	        "lesson": "Іноземна мова",
+	        "classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
+            "zoom_refs": null
+	    },
+        "10:00": {
+	        "lesson": "Фізична культура",
+	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+            "zoom_refs": null
+	    },
+        "11:30": {
+	        "lesson": "Математика",
+	        "classroom_code": "ikkjwrr",
+            "zoom_refs": null
+	    },
+        "13:00": {
+	        "lesson": "Стандартизація",
+	        "classroom_code": "6ogqnj7",
+            "zoom_refs": null
+	    }
+    },
+    "5": {
+        "strDayOfWeek": "П'ятниця",
+        "08:30": {
+	        "lesson": "Вища математика",
+	        "classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
+            "zoom_refs": null
+	    },
+        "10:00": {
+	        "lesson": "Українська література",
+	        "classroom_code": "pgeaznn",
+            "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
+	    },
+        "11:30": {
+	        "lesson": "Біологія",
+	        "classroom_code": "oeu36uo",
+            "zoom_refs": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09"
+	    }
+    }
+}

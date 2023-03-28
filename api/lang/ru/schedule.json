@@ -1,77 +1,77 @@
 {
     "1": {
-        "strDayOfWeek": "Понеділок",
+        "strDayOfWeek": "Понедельник",
         "08:30": {
-	        "lesson": "Історія України",
+	        "lesson": "История Украины",
 	        "classroom_code": "x4wh3k7",
             "zoom_refs": "https://discord.gg/CWrxRjr6aT"
 	    },
 	    "10:00": {
-	        "lesson": "Теорія кіл",
+	        "lesson": "Теория цепей",
 	        "classroom_code": "xbwv4zc",
             "zoom_refs": null
 	    },
         "11:30": {
-	        "lesson": "Інженерна графіка",
+	        "lesson": "Инженерная графика",
 	        "classroom_code": "idfnskr",
             "zoom_refs": null
 	    }
     },
     "2": {
-        "strDayOfWeek": "Вівторок",
+        "strDayOfWeek": "Вторник",
         "08:30": {
-	        "lesson": "Технології",
+	        "lesson": "Технологии",
 	        "classroom_code": "md3a47s",
             "zoom_refs": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1"
 	    },
         "10:00": {
-	        "lesson": "Захист Вітчизни",
+	        "lesson": "Защита Отечества",
 	        "classroom_code": "npgncuz",
             "zoom_refs": "https://meet.google.com/qag-kqao-znf"
 	    },
         "11:30": {
-	        "lesson": "Фізика",
+	        "lesson": "Физика",
 	        "classroom_code": "ioi25s6",
             "zoom_refs": null
 	    },
         "13:00": {
-	        "lesson": "Фізична культура",
+	        "lesson": "Физическая культура",
 	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
             "zoom_refs": null
 	    }
     },
     "3": {
-        "strDayOfWeek": "Середа",
+        "strDayOfWeek": "Среда",
         "08:30": {
-	        "lesson": "Безпека життєдіяльності",
+	        "lesson": "Безопасность жизнедеятельности",
 	        "classroom_code": "p766acy",
             "zoom_refs": "https://meet.google.com/met-uedi-wko"
 	    },
         "10:00": {
-	        "lesson": "Основи програмування",
+	        "lesson": "Основы программирования",
 	        "classroom_code": "yw4r6xa",
             "zoom_refs": "https://meet.google.com/uxe-ebcb-dbs"
 	    },
         "11:30": {
-	        "lesson": "Математика/Захист Вітчизни",
+	        "lesson": "Математика/Защита Отечества",
 	        "classroom_code": "ikkjwrr/npgncuz",
             "zoom_refs": "null/https://meet.google.com/qag-kqao-znf"
 	    },
 	    "13:00": {
-		    "lesson": "Укр. мова",
+		    "lesson": "Украинский язык",
 	        "classroom_code": "zuwqrzq",
             "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
 	    }
     },
     "4": {
-        "strDayOfWeek": "Четвер",
+        "strDayOfWeek": "Четверг",
         "08:30": {
-	        "lesson": "Іноземна мова",
+	        "lesson": "Иностранный язык",
 	        "classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
             "zoom_refs": null
 	    },
         "10:00": {
-	        "lesson": "Фізична культура",
+	        "lesson": "Физическая культура",
 	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
             "zoom_refs": null
 	    },
@@ -81,25 +81,25 @@
             "zoom_refs": null
 	    },
         "13:00": {
-	        "lesson": "Стандартизація",
+	        "lesson": "Стандартизация",
 	        "classroom_code": "6ogqnj7",
             "zoom_refs": null
 	    }
     },
     "5": {
-        "strDayOfWeek": "П'ятниця",
+        "strDayOfWeek": "Пятница",
         "08:30": {
-	        "lesson": "Вища математика",
+	        "lesson": "Высшая математика",
 	        "classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
             "zoom_refs": null
 	    },
         "10:00": {
-	        "lesson": "Укр. літ",
+	        "lesson": "Украинская литература",
 	        "classroom_code": "pgeaznn",
             "zoom_refs": "https://meet.google.com/kgj-repw-nmh"
 	    },
         "11:30": {
-	        "lesson": "Біологія",
+	        "lesson": "Биология",
 	        "classroom_code": "oeu36uo",
             "zoom_refs": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09"
 	    }
