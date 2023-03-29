@@ -1,107 +1,107 @@
 const schedule = {
     1: {
-        'strDayOfWeek': 'Понеділок',
+        'str_day_of_week': 'Понеділок',
         '08:30': {
-	        'lesson': 'Історія України',
+	        'lesson_name': 'Історія України',
 	        'classroom_code': 'x4wh3k7<br>Discord сервер Історії України: <a href="https://discord.gg/CWrxRjr6aT">Натисни на мене, щоб перейти до Discord сервера.</a>',
-            'zoom_refs': 'Заходьте на пару в Discord сервері.'
+            'lesson_link': 'Заходьте на пару в Discord сервері.'
 	    },
 	    '10:00': {
-	        'lesson': 'Теорія кіл',
+	        'lesson_name': 'Теорія кіл',
 	        'classroom_code': 'xbwv4zc',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '11:30': {
-	        'lesson': 'Інженерна графіка',
+	        'lesson_name': 'Інженерна графіка',
 	        'classroom_code': 'idfnskr',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    }
     },
     2: {
-        'strDayOfWeek': 'Вівторок',
+        'str_day_of_week': 'Вівторок',
         '08:30': {
-	        'lesson': 'Технології',
+	        'lesson_name': 'Технології',
 	        'classroom_code': 'md3a47s',
-            'zoom_refs': 'Постійне посилання на zoom: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1">Натисни на мене, щоб перейти до zoom конференції.</a>'
+            'lesson_link': 'Постійне посилання на zoom: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1">Натисни на мене, щоб перейти до zoom конференції.</a>'
 	    },
         '10:00': {
-	        'lesson': 'Захист Вітчизни',
+	        'lesson_name': 'Захист Вітчизни',
 	        'classroom_code': 'npgncuz',
-            'zoom_refs': 'Постійне посилання на конференцію: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
-	        'lesson': 'Фізика',
+	        'lesson_name': 'Фізика',
 	        'classroom_code': 'ioi25s6',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '13:00': {
-	        'lesson': 'Фізична культура',
+	        'lesson_name': 'Фізична культура',
 	        'classroom_code': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap">Натисни на мене, щоб перейти у classroom Фізичної культури.</a>',
-            'zoom_refs': 'Посилання на конференцію немає!'
+            'lesson_link': 'Посилання на конференцію немає!'
 	    }
     },
     3: {
-        'strDayOfWeek': 'Середа',
+        'str_day_of_week': 'Середа',
         '08:30': {
-	        'lesson': 'Безпека життєдіяльності',
+	        'lesson_name': 'Безпека життєдіяльності',
 	        'classroom_code': 'p766acy',
-            'zoom_refs': 'Постійне посилання на безпеку життєдіяльності: <a href="https://meet.google.com/met-uedi-wko">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійне посилання на безпеку життєдіяльності: <a href="https://meet.google.com/met-uedi-wko">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '10:00': {
-	        'lesson': 'Основи програмування',
+	        'lesson_name': 'Основи програмування',
 	        'classroom_code': 'yw4r6xa',
-            'zoom_refs': 'Постійне посилання на Програмування: <a href="https://meet.google.com/uxe-ebcb-dbs">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійне посилання на Програмування: <a href="https://meet.google.com/uxe-ebcb-dbs">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
-	        'lesson': 'Математика або Захист Вітчизни',
+	        'lesson_name': 'Математика або Захист Вітчизни',
 	        'classroom_code': 'Математика: ikkjwrr. Захист Вітчизни: npgncuz',
-            'zoom_refs': 'Постійного посилання на Математику немає! Заходьте за новим посиланням у classroom.<br>Постійне посилання на Захист Вітчизни: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійного посилання на Математику немає! Заходьте за новим посиланням у classroom.<br>Постійне посилання на Захист Вітчизни: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
 	    '13:00': {
-		    'lesson': 'Укр. мова',
+		    'lesson_name': 'Укр. мова',
 	        'classroom_code': 'zuwqrzq',
-            'zoom_refs': 'Постійне посилання на Укр. мову: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійне посилання на Укр. мову: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    }
     },
     4: {
-        'strDayOfWeek': 'Четвер',
+        'str_day_of_week': 'Четвер',
         '08:30': {
-	        'lesson': 'Іноземна мова',
+	        'lesson_name': 'Іноземна мова',
 	        'classroom_code': 'Пугачова: <a href="https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7">Натисни на мене, щоб перейти у classroom Англійської мови.</a>',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom або Discord.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom або Discord.'
 	    },
         '10:00': {
-	        'lesson': 'Фізична культура',
+	        'lesson_name': 'Фізична культура',
 	        'classroom_code': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap">Натисни на мене, щоб перейти у classroom Фізичної культури.</a>',
-            'zoom_refs': 'Посилання на конференцію немає!'
+            'lesson_link': 'Посилання на конференцію немає!'
 	    },
         '11:30': {
-	        'lesson': 'Математика',
+	        'lesson_name': 'Математика',
 	        'classroom_code': 'ikkjwrr',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '13:00': {
-	        'lesson': 'Стандартизація',
+	        'lesson_name': 'Стандартизація',
 	        'classroom_code': '6ogqnj7',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    }
     },
     5: {
-        'strDayOfWeek': 'П\'ятниця',
+        'str_day_of_week': 'П\'ятниця',
         '08:30': {
-	        'lesson': 'Вища математика',
+	        'lesson_name': 'Вища математика',
 	        'classroom_code': '<a href="https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss">Натисни на мене, щоб перейти у classroom Вищої математики.</a>',
-            'zoom_refs': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '10:00': {
-	        'lesson': 'Укр. літ',
+	        'lesson_name': 'Укр. літ',
 	        'classroom_code': 'pgeaznn',
-            'zoom_refs': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
+            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
-	        'lesson': 'Біологія',
+	        'lesson_name': 'Біологія',
 	        'classroom_code': 'oeu36uo',
-            'zoom_refs': 'Постійне посилання zoom: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09">Натисни на мене, щоб перейти до zoom конференції.</a>'
+            'lesson_link': 'Постійне посилання zoom: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09">Натисни на мене, щоб перейти до zoom конференції.</a>'
 	    }
     }
 }

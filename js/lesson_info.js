@@ -1,66 +1,46 @@
 import schedule from './schedule.js';
 
-setInterval(() => writeLessonInfoInTag(getLessonInfoObj(getLessonTimeObj(getCurrentDateTimeObj()))), 1000);
+setInterval(() => writeLessonInfoInTag(), 1000);
 
-const getCurrentDateTimeObj = () => {
+const htmlLessonInfoParagraph = document.getElementById('lesson-info');
+let lessonTime;
+let lessonInfoObj;
+let strDayOfWeek;
+
+const writeLessonInfoInTag = () => {
     const date = new Date();
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
-    const currentTime = date.toLocaleTimeString();
+    const currentTime = date.toLocaleTimeString('en-US', { hour12: false, hour: 'numeric', minute: 'numeric', second: 'numeric' });
     const dayOfWeek = date.getDay();
-    return { hours, minutes, currentTime, dayOfWeek };
-}
 
-const getLessonTimeObj = (currentDateTimeObj) => {
-    const { hours, minutes } = currentDateTimeObj;
-    let lessonTime;
-
-    if (((hours >= 8 && minutes >= 30) || (hours >= 9)) && hours < 10)
+    if (currentTime >= '08:30' && currentTime < '10:00') {
         lessonTime = '08:30';
-    else if (((hours >= 11 && minutes >= 30) || (hours >= 12)) && hours < 13)
-        lessonTime = '11:30';
-    else if (hours >= 10 && hours < 13)
+    } else if (currentTime >= '10:00' && currentTime < '11:30') {
         lessonTime = '10:00';
-    else if (((hours >= 13 && hours < 14) || (hours >= 14 && minutes < 30)) && hours < 15)
+    } else if (currentTime >= '11:30' && currentTime < '13:00') {
+        lessonTime = '11:30';
+    } else if (currentTime >= '13:00' && currentTime < '14:20') {
         lessonTime = '13:00';
-    
-    currentDateTimeObj['lessonTime'] = lessonTime;
-    return currentDateTimeObj;
-}
-
-const getLessonInfoObj = (lessonTimeObj) => {
-    const { dayOfWeek, lessonTime } = lessonTimeObj;
+    }
 
     try {
-        lessonTimeObj['lessonInfo'] = schedule[dayOfWeek][lessonTime];
-        lessonTimeObj['strDayOfWeek'] = schedule[dayOfWeek]['strDayOfWeek'];
+        lessonInfoObj = schedule[dayOfWeek][lessonTime];
+        strDayOfWeek = schedule[dayOfWeek]['str_day_of_week'];
     } catch {
-        lessonTimeObj['lessonInfo'] = null;
-    } finally {
-        return lessonTimeObj;
+        lessonInfoObj = null;
+        strDayOfWeek = null;
     }
-}
 
-const writeLessonInfoInTag = (lessonInfoObj) => {
-    const htmlLessonInfoParagraph = document.getElementById('lesson-info');
-    const { lessonInfo, hours, dayOfWeek, currentTime, strDayOfWeek } = lessonInfoObj;
-    console.log(dayOfWeek);
-
-    if (lessonInfo) {
-        const { lesson, classroom_code, zoom_refs } = lessonInfo;
-        htmlLessonInfoParagraph.innerHTML = `${strDayOfWeek}:<br>
-        Сьогодні о ${currentTime} у нас за розкладом: ${lesson}.<br>
-        Код або посилання classroom: ${classroom_code}<br>${zoom_refs}`;
+    if (lessonInfoObj) {
+        const { lesson_name, classroom_code, lesson_link } = lessonInfoObj;
+        htmlLessonInfoParagraph.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentTime} у нас за розкладом: ${lesson_name}.<br>Код або посилання classroom: ${classroom_code}<br>${lesson_link}`;
     } else if (dayOfWeek === 6 || dayOfWeek === 0) {
-        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. Сьогодні вихідний,
-        відпочивайте!`;
-    } else if (hours >= 0 && hours < 9) {
-        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари ще не розпочалися,
-        відпочивайте!`;
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. Сьогодні вихідний, відпочивайте!`;
+    } else if (currentTime >= '24:00' || currentTime >= '01:00' && currentTime < '08:30') {
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари ще не розпочалися, відпочивайте!`;
     } else {
-        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари вже закінчилися,
-        відпочивайте!`;
+        htmlLessonInfoParagraph.innerHTML = `Зараз: ${currentTime}. На сьогодні пари вже закінчилися, відпочивайте!`;
     }
+    lessonTime = undefined;
 }
 
-writeLessonInfoInTag(getLessonInfoObj(getLessonTimeObj(getCurrentDateTimeObj())));
+writeLessonInfoInTag();
