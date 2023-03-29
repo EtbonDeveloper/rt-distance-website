@@ -29,92 +29,267 @@
 ### **3. Как работать с данными:**
 > В этом разделе вы узнаете как работать с данными.
 
-Работу с JSON на сегодняшний день поддерживает любой современный язык программирования. Это значит что вы можете использовать свой любимый язык программирования для работы с JSON. Я покажу пример работы лишь на 3 языках: Python, JavaScript и C#. Стоит сразу сказать, вы должны быть знакомы с программированием хоть чуть-чуть чтобы правильно использовать эти данные, возможности применения ограничиваются лишь вашей фантазией и опытом програмирования. Примеры того, что вы можете сделать используя эти данные: Telegram бот который работает онлайн и может подсказать вам какая сейчас идёт пара, какой classroom код этой пары и какая ссылка на пару. Приложение на Android или IOS которое оповещает вас что пора идити на пару, даёт ссылку на неё и classroom код в придачу. Вся работа с JSON сводится к тому, что вы обращаетесь к данным в каскадном стиле, сначала ко дню недели, потом к времени начала пары или к названию дня недели, после у вас есть выбор что вы хотите получить: название предмета, classroom код предмета или ссылку на пару если она постоянная (если не постоянная, значением свойства будет null (ничего)), также каждую недели в определённый день, пары разные, в названии вы получите две пары, разделённые символом "/", используйте возможности вашего языка чтобы поделить строку на 2 части, или оставьте всё как есть. Пару слов про структуру JSON, в фигурных скобках всегда заключён объект, а в объекте может находится множество свойств к которым вы можете обратится, также обьект может быть именованым, например, после обращения к дню недели (это и есть именованый объект) вы получите обьект в котором находится ещё как минимум 3 именованых объекта и 1 свойство, имена этих 3 объектов это время начала пары, после обращения к объекту (времени пары) вы получите доступ ко всей информации связанной с парой котрая начинается в это время: название предмета, classroom код и ссылка на конференции (опционально), эти 3 свойства также имеют имя, именно поэтому JSON это один из самых удобных способов структурировать данные. Дальше пойдут простые примеры обращения к данным на 3 языках программирования.
+Работу с JSON на сегодняшний день поддерживает любой современный язык программирования. Это значит что вы можете использовать свой любимый язык программирования для работы с JSON. Я покажу пример работы лишь на 3 языках: Python, JavaScript и C#. Стоит сразу сказать, вы должны быть знакомы с программированием хоть чуть-чуть чтобы правильно использовать эти данные, возможности применения ограничиваются лишь вашей фантазией и опытом програмирования. Примеры того, что вы можете сделать используя эти данные: Telegram бот который работает онлайн и может подсказать вам какая сейчас идёт пара, какой classroom код этой пары и какая ссылка на пару. Приложение на Android или IOS которое оповещает вас что пора идити на пару, даёт ссылку на неё и classroom код в придачу. JSON файл содержит расписание занятий на неделю в виде объекта с свойствами:
++ `weekday_numbers` - объект, содержащий информацию для каждого дня недели. Каждый день имеет свой порядковый номер, это числовое представление дня недели указанное в качестве ключей объекта weekday_numbers.
++ `str_day_of_week` - список из двух элементов: полное название дня недели и его сокращенное название.
++ `number_of_lessons` - количество занятий в этот день.
++ `lessons_time` - объект, содержащий другие объекты предсталяющие информацию о кадом предмете. Ключами являются время начала занятия в формате "ЧЧ:ММ".
+
+Каждый объект занятия содержит следующие свойства:
++ `lesson_name` - название занятия. Обратите внимание, может содержать в качестве значения два имя занятия (если они меняются через неделю) разделённых символом "/", вы можете использовать функцию для разбивания строки на 2 части в вашем языке программирования.
++ `classroom_code` - свойство предоставляет значение classroom кода для конкретного предмета. Обратите внимание, может содержать ссылку или сивольный код, также может быть разделено символом "/" как в свойстве lesson_name.
++ `lesson_link` - ссылка на конференцию для проведения онлайн-урока, если ссылка на конференцию постоянная. Обратите внимание, если ссылка на конференцию меняется, то значением этого свойства будет null (нечего), в любом языке программирования вы можете делать проверку на null или на аналог null и выполнять соответствующие действия. Также может быть разделена символом "/", аналогично как у 2 предыдущих свойств.
++ `lesson_number` - порядковый номер занятия в этот день.
++ `start_time` - время начала занятия.
++ `end_time` - время конца занятия без учёта 10 минутного перерыва после окончания.
+
+Вот наглядный пример того как выглядит структура этого JSON файла (русский вариант):
+```json
+{
+	"weekday_numbers": {
+		"1": {
+			"str_day_of_week": ["Понедельник", "Пн"],
+			"number_of_lessons": "3",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "История Украины",
+					"classroom_code": "x4wh3k7",
+					"lesson_link": "https://discord.gg/CWrxRjr6aT",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Теория цепей",
+					"classroom_code": "xbwv4zc",
+					"lesson_link": null,
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Инженерная графика",
+					"classroom_code": "idfnskr",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				}
+			}
+		},
+		"2": {
+			"str_day_of_week": ["Вторник", "Вт"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Технологии",
+					"classroom_code": "md3a47s",
+					"lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Защита Отечества",
+					"classroom_code": "npgncuz",
+					"lesson_link": "https://meet.google.com/qag-kqao-znf",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Физика",
+					"classroom_code": "ioi25s6",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Физическая культура",
+					"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+					"lesson_link": null,
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"3": {
+			"str_day_of_week": ["Среда", "Ср"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Безопасность жизнедеятельности",
+					"classroom_code": "p766acy",
+					"lesson_link": "https://meet.google.com/met-uedi-wko",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Основы программирования",
+					"classroom_code": "yw4r6xa",
+					"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Математика/Защита Отечества",
+					"classroom_code": "ikkjwrr/npgncuz",
+					"lesson_link": "null/https://meet.google.com/qag-kqao-znf",
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Украинский язык",
+					"classroom_code": "zuwqrzq",
+					"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"4": {
+			"str_day_of_week": ["Четверг", "Чт"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Иностранный язык",
+					"classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
+					"lesson_link": null,
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Физическая культура",
+					"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+					"lesson_link": null,
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Математика",
+					"classroom_code": "ikkjwrr",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Стандартизация",
+					"classroom_code": "6ogqnj7",
+					"lesson_link": null,
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"5": {
+			"str_day_of_week": ["Пятница", "Пт"],
+			"number_of_lessons": "3",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Высшая математика",
+					"classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
+					"lesson_link": null,
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Украинская литература",
+					"classroom_code": "pgeaznn",
+					"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Биология",
+					"classroom_code": "oeu36uo",
+					"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				}
+			}
+		}
+	}
+}
+```
+Дальше пойдут простые примеры обращения к данным API на 3 языках программирования (Python, JavaScript и C#).
 ### 3.1. Python:
 ```python
 import requests  # Подключаем библиотеку requests для работы с запросами.
 
 # Получаем объект response делая get запрос на адрес с нашим json файлом.
 response = requests.get('https://etbondeveloper.github.io/rt-distance-website/api/ru/schedule.json')
- 
+
 # Конвертируем объект response к типу данных dict в python для представления данных в виде словаря.
-data = response.json()
+schedule = response.json()
 
-# Сначала обращаемся к словарю data, потом ко дню недели ["1"], потом к времени пары ["08:30"] и напоследок к названию урока ["lesson_name"] и выводим это всё на консоль.
-print(data["1"]["08:30"]["lesson_name"])
+# Обращаемся к словарю schedule, потом к объекту 'weekday_numbers', потом к объекту дня недели '1' и наконец получаем объект по ключу 'lessons_time' и присваиваем в переменную monday_lessons.
+monday_lessons = schedule['weekday_numbers']['1']['lessons_time']
 
-# Всё аналогично как и с прошлой строкой, только здесь мы выводим в консоль classroom код пары которая проходит в понедельник в 08:30.
-print(data["1"]["08:30"]["classroom_code"])
-
-# Получение названия дня недели в виде строки и вывод на консоль.
-print(data["1"]["str_day_of_week"]) 
+# В цикле обращаемся к обращаемся к кадому ключу, представляющий время начала занятия и к объекту по этому ключу.
+for start_time, lesson_info in monday_lessons.items():
+    print(f"{start_time}: {lesson_info['lesson_name']}")  # Выводим полученные данные (время начала занятия и к свойству 'lesson_name' объекта lesson_info которое представляет имя занятия).
 ```
 ### 3.2. JavaScript:
 ```javascript
-fetch('https://etbondeveloper.github.io/rt-distance-website/api/ru/schedule.json') // Делаем запрос к JSON файлу на сервер используя функцию fetch
-.then(response => {
-    if (response.ok) { // Если данные получены корректно
-        return response.json(); // Возвращаем JavaScript объект из объекта response
-    }
-    throw new Error('Ошибка получения данных: ' + response.status); // Если данные получены некорректно выкидываем ошибку пользователю с статусом ответа сервера
-}).then(data => {
-    // Сначала обращаемся к объекту data, потом ко дню недели ["1"], потом к времени пары ["08:30"] и напоследок к названию урока ["lesson_name"] и выводим это всё на консоль.
-    console.log(data["1"]["08:30"]["lesson_name"]);
+// Получаем объект response делая get запрос на адрес с нашим json файлом.
+fetch('https://etbondeveloper.github.io/rt-distance-website/api/ru/schedule.json')
+    .then(response => response.json()) // Конвертируем объект response к объекту в javascript.
+    .then(schedule => {
+        // Обращаемся к объекту schedule, потом к объекту 'weekday_numbers', потом к объекту дня недели '1' и наконец получаем объект по ключу 'lessons_time' и присваиваем в переменную mondayLessons.
+        const mondayLessons = schedule['weekday_numbers']['1']['lessons_time'];
 
-    // Всё аналогично как и с прошлой строкой, только здесь мы выводим в консоль classroom код пары которая проходит в понедельник в 08:30.
-    console.log(data["1"]["08:30"]["classroom_code"]);
+        // В цикле обращаемся к обращаемся к кадому ключу, представляющий время начала занятия и к объекту по этому ключу.
+        for (const startTime in mondayLessons) {
+            const lessonInfo = mondayLessons[startTime];
 
-    // Получение названия дня недели в виде строки и вывод на консоль.
-    console.log(data["1"]["str_day_of_week"]);
-}).catch(error => { // Если не получиться обратится к свойствам объекта будет ошибка, которую мы выведем в консоль.
-    console.error(error);
-});
+            // Выводим полученные данные (время начала занятия и к свойству 'lesson_name' объекта lessonInfo которое представляет имя занятия).
+            console.log(`${startTime}: ${lessonInfo['lesson_name']}`);
+        }
+    })
+    .catch(error => console.error(error)); // Ловим ошибки если не получится обратится по ключам
 ```
 ### 3.3. C#:
 ```csharp
 using System;
 using System.Net.Http;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-public class Program
+class Program
 {
-    public static async Task Main() // Основной метод Main который выполняет асинхронные действия (запросы к серверу)
+    static async Task Main()
     {
-        using (var client = new HttpClient()) // Используем using блок для автоматического очищения данных после работы с JSON объектом
+        // Создаём экземпляр HttpClient для отправки запросов.
+        using var client = new HttpClient();
+
+        var response = await client.GetStringAsync("https://etbondeveloper.github.io/rt-distance-website/api/ru/schedule.json");
+
+        // Десериализуем полученную строку JSON в объект типа JsonDocument.
+        var document = JsonDocument.Parse(response);
+
+        // Получаем объект JsonElement, представляющий словарь по ключу 'weekday_numbers' и '1'.
+        var mondayLessons = document.RootElement.GetProperty("weekday_numbers").GetProperty("1").GetProperty("lessons_time");
+
+        // Итерируемся по всем элементам объекта mondayLessons и выводим информацию о занятиях в понедельник.
+        foreach (JsonProperty lessonTime in mondayLessons.EnumerateObject())
         {
-            try
-            {
-                // Ожидаем завершения асинхронной операции (запроса к серверу на получение JSON файла)
-                var response = await client.GetAsync("https://etbondeveloper.github.io/rt-distance-website/api/ru/schedule.json"); 
+            var startTime = lessonTime.Name;
+            var lessonInfo = lessonTime.Value;
 
-                // Если запрос прошел успешно, выполняем действия с JSON 
-                if (response.IsSuccessStatusCode)
-                {
-                    // Читаем ответ сервера как строку
-                    var jsonString = await response.Content.ReadAsStringAsync();
-
-                    // Приводим строку к экземпляру класса JsonElement для дальнейшей работы
-                    var data = JsonSerializer.Deserialize<JsonElement>(jsonString);
-
-                    // Сначала обращаемся к объекту data, потом ко дню недели "1", потом к времени пары "08:30" и напоследок к названию урока "lesson_name" и выводим это всё на консоль.
-                    Console.WriteLine(data.GetProperty("1").GetProperty("08:30").GetProperty("lesson_name").GetString());
-
-                    // Всё аналогично как и с прошлой строкой, только здесь мы выводим в консоль classroom код пары которая проходит в понедельник в 08:30.
-                    Console.WriteLine(data.GetProperty("1").GetProperty("08:30").GetProperty("classroom_code").GetString());
-
-                    // Получение названия дня недели в виде строки и вывод на консоль.
-                    Console.WriteLine(data.GetProperty("1").GetProperty("str_day_of_week").GetString());
-                }
-                else
-                {
-                    Console.WriteLine("Ошибка получения данных: " + response.StatusCode);
-                }
-            }
-            catch (HttpRequestException e)
-            {
-                Console.WriteLine("Ошибка при выполнении запроса: " + e.Message);
-            }
+            // Выводим на консоль информацию о времени начала занятия и свойства "lesson_name"
+            Console.WriteLine($"{startTime}: {lessonInfo.GetProperty("lesson_name")}");
         }
     }
 }
