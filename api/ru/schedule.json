@@ -1,176 +1,178 @@
 {
-    "1": {
-        "str_day_of_week": ["Понедельник", "Пн"],
-		"number_of_lessons": "3",
-		"lessons_time": {
-			"08:30": {
-				"lesson_name": "История Украины",
-				"classroom_code": "x4wh3k7",
-				"lesson_link": "https://discord.gg/CWrxRjr6aT",
-				"lesson_number": "1",
-				"start_time": "08:30",
-				"end_time": "09:50"
-			},
-			"10:00": {
-				"lesson_name": "Теория цепей",
-				"classroom_code": "xbwv4zc",
-				"lesson_link": null,
-				"lesson_number": "2",
-				"start_time": "10:00",
-				"end_time": "11:20"
-			},
-			"11:30": {
-				"lesson_name": "Инженерная графика",
-				"classroom_code": "idfnskr",
-				"lesson_link": null,
-				"lesson_number": "3",
-				"start_time": "11:30",
-				"end_time": "12:50"
+	"weekday_numbers": {
+		"1": {
+			"str_day_of_week": ["Понедельник", "Пн"],
+			"number_of_lessons": "3",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "История Украины",
+					"classroom_code": "x4wh3k7",
+					"lesson_link": "https://discord.gg/CWrxRjr6aT",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Теория цепей",
+					"classroom_code": "xbwv4zc",
+					"lesson_link": null,
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Инженерная графика",
+					"classroom_code": "idfnskr",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				}
+			}
+		},
+		"2": {
+			"str_day_of_week": ["Вторник", "Вт"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Технологии",
+					"classroom_code": "md3a47s",
+					"lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Защита Отечества",
+					"classroom_code": "npgncuz",
+					"lesson_link": "https://meet.google.com/qag-kqao-znf",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Физика",
+					"classroom_code": "ioi25s6",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Физическая культура",
+					"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+					"lesson_link": null,
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"3": {
+			"str_day_of_week": ["Среда", "Ср"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Безопасность жизнедеятельности",
+					"classroom_code": "p766acy",
+					"lesson_link": "https://meet.google.com/met-uedi-wko",
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Основы программирования",
+					"classroom_code": "yw4r6xa",
+					"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Математика/Защита Отечества",
+					"classroom_code": "ikkjwrr/npgncuz",
+					"lesson_link": "null/https://meet.google.com/qag-kqao-znf",
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Украинский язык",
+					"classroom_code": "zuwqrzq",
+					"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"4": {
+			"str_day_of_week": ["Четверг", "Чт"],
+			"number_of_lessons": "4",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Иностранный язык",
+					"classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
+					"lesson_link": null,
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Физическая культура",
+					"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+					"lesson_link": null,
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Математика",
+					"classroom_code": "ikkjwrr",
+					"lesson_link": null,
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				},
+				"13:00": {
+					"lesson_name": "Стандартизация",
+					"classroom_code": "6ogqnj7",
+					"lesson_link": null,
+					"lesson_number": "4",
+					"start_time": "13:00",
+					"end_time": "14:20"
+				}
+			}
+		},
+		"5": {
+			"str_day_of_week": ["Пятница", "Пт"],
+			"number_of_lessons": "3",
+			"lessons_time": {
+				"08:30": {
+					"lesson_name": "Высшая математика",
+					"classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
+					"lesson_link": null,
+					"lesson_number": "1",
+					"start_time": "08:30",
+					"end_time": "09:50"
+				},
+				"10:00": {
+					"lesson_name": "Украинская литература",
+					"classroom_code": "pgeaznn",
+					"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+					"lesson_number": "2",
+					"start_time": "10:00",
+					"end_time": "11:20"
+				},
+				"11:30": {
+					"lesson_name": "Биология",
+					"classroom_code": "oeu36uo",
+					"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
+					"lesson_number": "3",
+					"start_time": "11:30",
+					"end_time": "12:50"
+				}
 			}
 		}
-    },
-    "2": {
-        "str_day_of_week": ["Вторник", "Вт"],
-		"number_of_lessons": "4",
-		"lessons_time": {
-			"08:30": {
-				"lesson_name": "Технологии",
-				"classroom_code": "md3a47s",
-				"lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1",
-				"lesson_number": "1",
-				"start_time": "08:30",
-				"end_time": "09:50"
-			},
-			"10:00": {
-				"lesson_name": "Защита Отечества",
-				"classroom_code": "npgncuz",
-				"lesson_link": "https://meet.google.com/qag-kqao-znf",
-				"lesson_number": "2",
-				"start_time": "10:00",
-				"end_time": "11:20"
-			},
-			"11:30": {
-				"lesson_name": "Физика",
-				"classroom_code": "ioi25s6",
-				"lesson_link": null,
-				"lesson_number": "3",
-				"start_time": "11:30",
-				"end_time": "12:50"
-			},
-			"13:00": {
-				"lesson_name": "Физическая культура",
-				"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-				"lesson_link": null,
-				"lesson_number": "4",
-				"start_time": "13:00",
-				"end_time": "14:20"
-			}
-		}
-    },
-    "3": {
-        "str_day_of_week": ["Среда", "Ср"],
-		"number_of_lessons": "4",
-		"lessons_time": {
-			"08:30": {
-				"lesson_name": "Безопасность жизнедеятельности",
-				"classroom_code": "p766acy",
-				"lesson_link": "https://meet.google.com/met-uedi-wko",
-				"lesson_number": "1",
-				"start_time": "08:30",
-				"end_time": "09:50"
-			},
-			"10:00": {
-				"lesson_name": "Основы программирования",
-				"classroom_code": "yw4r6xa",
-				"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
-				"lesson_number": "2",
-				"start_time": "10:00",
-				"end_time": "11:20"
-			},
-			"11:30": {
-				"lesson_name": "Математика/Защита Отечества",
-				"classroom_code": "ikkjwrr/npgncuz",
-				"lesson_link": "null/https://meet.google.com/qag-kqao-znf",
-				"lesson_number": "3",
-				"start_time": "11:30",
-				"end_time": "12:50"
-			},
-			"13:00": {
-				"lesson_name": "Украинский язык",
-				"classroom_code": "zuwqrzq",
-				"lesson_link": "https://meet.google.com/kgj-repw-nmh",
-				"lesson_number": "4",
-				"start_time": "13:00",
-				"end_time": "14:20"
-			}
-		}
-    },
-    "4": {
-        "str_day_of_week": ["Четверг", "Чт"],
-		"number_of_lessons": "4",
-		"lessons_time": {
-			"08:30": {
-				"lesson_name": "Иностранный язык",
-				"classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
-				"lesson_link": null,
-				"lesson_number": "1",
-				"start_time": "08:30",
-				"end_time": "09:50"
-			},
-			"10:00": {
-				"lesson_name": "Физическая культура",
-				"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-				"lesson_link": null,
-				"lesson_number": "2",
-				"start_time": "10:00",
-				"end_time": "11:20"
-			},
-			"11:30": {
-				"lesson_name": "Математика",
-				"classroom_code": "ikkjwrr",
-				"lesson_link": null,
-				"lesson_number": "3",
-				"start_time": "11:30",
-				"end_time": "12:50"
-			},
-			"13:00": {
-				"lesson_name": "Стандартизация",
-				"classroom_code": "6ogqnj7",
-				"lesson_link": null,
-				"lesson_number": "4",
-				"start_time": "13:00",
-				"end_time": "14:20"
-			}
-		}
-    },
-    "5": {
-        "str_day_of_week": ["Пятница", "Пт"],
-		"number_of_lessons": "3",
-		"lessons_time": {
-			"08:30": {
-				"lesson_name": "Высшая математика",
-				"classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
-				"lesson_link": null,
-				"lesson_number": "1",
-				"start_time": "08:30",
-				"end_time": "09:50"
-			},
-			"10:00": {
-				"lesson_name": "Украинская литература",
-				"classroom_code": "pgeaznn",
-				"lesson_link": "https://meet.google.com/kgj-repw-nmh",
-				"lesson_number": "2",
-				"start_time": "10:00",
-				"end_time": "11:20"
-			},
-			"11:30": {
-				"lesson_name": "Биология",
-				"classroom_code": "oeu36uo",
-				"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
-				"lesson_number": "3",
-				"start_time": "11:30",
-				"end_time": "12:50"
-			}
-		}
-    }
+	}
 }
