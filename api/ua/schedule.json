@@ -1,107 +1,176 @@
 {
     "1": {
-        "str_day_of_week": "Понеділок",
-        "08:30": {
-	        "lesson_name": "Історія України",
-	        "classroom_code": "x4wh3k7",
-            "lesson_link": "https://discord.gg/CWrxRjr6aT"
-	    },
-	    "10:00": {
-	        "lesson_name": "Теорія кіл",
-	        "classroom_code": "xbwv4zc",
-            "lesson_link": null
-	    },
-        "11:30": {
-	        "lesson_name": "Інженерна графіка",
-	        "classroom_code": "idfnskr",
-            "lesson_link": null
-	    }
+        "str_day_of_week": ["Понеділок", "Пн"],
+		"number_of_lessons": "3",
+		"lessons_time": {
+			"08:30": {
+				"lesson_name": "Історія України",
+				"classroom_code": "x4wh3k7",
+				"lesson_link": "https://discord.gg/CWrxRjr6aT",
+				"lesson_number": "1",
+				"start_time": "08:30",
+				"end_time": "09:50"
+			},
+			"10:00": {
+				"lesson_name": "Теорія кіл",
+				"classroom_code": "xbwv4zc",
+				"lesson_link": null,
+				"lesson_number": "2",
+				"start_time": "10:00",
+				"end_time": "11:20"
+			},
+			"11:30": {
+				"lesson_name": "Інженерна графіка",
+				"classroom_code": "idfnskr",
+				"lesson_link": null,
+				"lesson_number": "3",
+				"start_time": "11:30",
+				"end_time": "12:50"
+			}
+		}
     },
     "2": {
-        "str_day_of_week": "Вівторок",
-        "08:30": {
-	        "lesson_name": "Технології",
-	        "classroom_code": "md3a47s",
-            "lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1"
-	    },
-        "10:00": {
-	        "lesson_name": "Захист Вітчизни",
-	        "classroom_code": "npgncuz",
-            "lesson_link": "https://meet.google.com/qag-kqao-znf"
-	    },
-        "11:30": {
-	        "lesson_name": "Фізика",
-	        "classroom_code": "ioi25s6",
-            "lesson_link": null
-	    },
-        "13:00": {
-	        "lesson_name": "Фізична культура",
-	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-            "lesson_link": null
-	    }
+        "str_day_of_week": ["Вівторок", "Вт"],
+		"number_of_lessons": "4",
+		"lessons_time": {
+			"08:30": {
+				"lesson_name": "Технології",
+				"classroom_code": "md3a47s",
+				"lesson_link": "https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1",
+				"lesson_number": "1",
+				"start_time": "08:30",
+				"end_time": "09:50"
+			},
+			"10:00": {
+				"lesson_name": "Захист Вітчизни",
+				"classroom_code": "npgncuz",
+				"lesson_link": "https://meet.google.com/qag-kqao-znf",
+				"lesson_number": "2",
+				"start_time": "10:00",
+				"end_time": "11:20"
+			},
+			"11:30": {
+				"lesson_name": "Фізика",
+				"classroom_code": "ioi25s6",
+				"lesson_link": null,
+				"lesson_number": "3",
+				"start_time": "11:30",
+				"end_time": "12:50"
+			},
+			"13:00": {
+				"lesson_name": "Фізична культура",
+				"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+				"lesson_link": null,
+				"lesson_number": "4",
+				"start_time": "13:00",
+				"end_time": "14:20"
+			}
+		}
     },
     "3": {
-        "str_day_of_week": "Середа",
-        "08:30": {
-	        "lesson_name": "Безпека життєдіяльності",
-	        "classroom_code": "p766acy",
-            "lesson_link": "https://meet.google.com/met-uedi-wko"
-	    },
-        "10:00": {
-	        "lesson_name": "Основи програмування",
-	        "classroom_code": "yw4r6xa",
-            "lesson_link": "https://meet.google.com/uxe-ebcb-dbs"
-	    },
-        "11:30": {
-	        "lesson_name": "Математика/Захист Вітчизни",
-	        "classroom_code": "ikkjwrr/npgncuz",
-            "lesson_link": "null/https://meet.google.com/qag-kqao-znf"
-	    },
-	    "13:00": {
-		    "lesson_name": "Українська мова",
-	        "classroom_code": "zuwqrzq",
-            "lesson_link": "https://meet.google.com/kgj-repw-nmh"
-	    }
+        "str_day_of_week": ["Середа", "Ср"],
+		"number_of_lessons": "4",
+		"lessons_time": {
+			"08:30": {
+				"lesson_name": "Безпека життєдіяльності",
+				"classroom_code": "p766acy",
+				"lesson_link": "https://meet.google.com/met-uedi-wko",
+				"lesson_number": "1",
+				"start_time": "08:30",
+				"end_time": "09:50"
+			},
+			"10:00": {
+				"lesson_name": "Основи програмування",
+				"classroom_code": "yw4r6xa",
+				"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
+				"lesson_number": "2",
+				"start_time": "10:00",
+				"end_time": "11:20"
+			},
+			"11:30": {
+				"lesson_name": "Математика/Захист Вітчизни",
+				"classroom_code": "ikkjwrr/npgncuz",
+				"lesson_link": "null/https://meet.google.com/qag-kqao-znf",
+				"lesson_number": "3",
+				"start_time": "11:30",
+				"end_time": "12:50"
+			},
+			"13:00": {
+				"lesson_name": "Українська мова",
+				"classroom_code": "zuwqrzq",
+				"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+				"lesson_number": "4",
+				"start_time": "13:00",
+				"end_time": "14:20"
+			}
+		}
     },
     "4": {
-        "str_day_of_week": "Четвер",
-        "08:30": {
-	        "lesson_name": "Іноземна мова",
-	        "classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
-            "lesson_link": null
-	    },
-        "10:00": {
-	        "lesson_name": "Фізична культура",
-	        "classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
-            "lesson_link": null
-	    },
-        "11:30": {
-	        "lesson_name": "Математика",
-	        "classroom_code": "ikkjwrr",
-            "lesson_link": null
-	    },
-        "13:00": {
-	        "lesson_name": "Стандартизація",
-	        "classroom_code": "6ogqnj7",
-            "lesson_link": null
-	    }
+        "str_day_of_week": ["Четвер", "Чт"],
+		"number_of_lessons": "4",
+		"lessons_time": {
+			"08:30": {
+				"lesson_name": "Іноземна мова",
+				"classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
+				"lesson_link": null,
+				"lesson_number": "1",
+				"start_time": "08:30",
+				"end_time": "09:50"
+			},
+			"10:00": {
+				"lesson_name": "Фізична культура",
+				"classroom_code": "https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap",
+				"lesson_link": null,
+				"lesson_number": "2",
+				"start_time": "10:00",
+				"end_time": "11:20"
+			},
+			"11:30": {
+				"lesson_name": "Математика",
+				"classroom_code": "ikkjwrr",
+				"lesson_link": null,
+				"lesson_number": "3",
+				"start_time": "11:30",
+				"end_time": "12:50"
+			},
+			"13:00": {
+				"lesson_name": "Стандартизація",
+				"classroom_code": "6ogqnj7",
+				"lesson_link": null,
+				"lesson_number": "4",
+				"start_time": "13:00",
+				"end_time": "14:20"
+			}
+		}
     },
     "5": {
-        "str_day_of_week": "П'ятниця",
-        "08:30": {
-	        "lesson_name": "Вища математика",
-	        "classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
-            "lesson_link": null
-	    },
-        "10:00": {
-	        "lesson_name": "Українська література",
-	        "classroom_code": "pgeaznn",
-            "lesson_link": "https://meet.google.com/kgj-repw-nmh"
-	    },
-        "11:30": {
-	        "lesson_name": "Біологія",
-	        "classroom_code": "oeu36uo",
-            "lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09"
-	    }
+        "str_day_of_week": ["П'ятниця", "Пт"],
+		"number_of_lessons": "3",
+		"lessons_time": {
+			"08:30": {
+				"lesson_name": "Вища математика",
+				"classroom_code": "https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss",
+				"lesson_link": null,
+				"lesson_number": "1",
+				"start_time": "08:30",
+				"end_time": "09:50"
+			},
+			"10:00": {
+				"lesson_name": "Українська література",
+				"classroom_code": "pgeaznn",
+				"lesson_link": "https://meet.google.com/kgj-repw-nmh",
+				"lesson_number": "2",
+				"start_time": "10:00",
+				"end_time": "11:20"
+			},
+			"11:30": {
+				"lesson_name": "Біологія",
+				"classroom_code": "oeu36uo",
+				"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
+				"lesson_number": "3",
+				"start_time": "11:30",
+				"end_time": "12:50"
+			}
+		}
     }
 }
