@@ -6,11 +6,11 @@ timetable.innerHTML = '';
 for (const dayOfWeek in schedule) {
     let lessonCounter = 1;
     for (const lessonTime in schedule[dayOfWeek]) {
-        if (lessonTime === 'str_day_of_week')
+        if (lessonTime === 'strDayOfWeek')
             timetable.innerHTML += `${schedule[dayOfWeek][lessonTime]}:<br>`;
         else {
             const lessonInfoObj = schedule[dayOfWeek][lessonTime]; 
-            const lesson = lessonInfoObj['lesson_name'];
+            const lesson = lessonInfoObj['lesson'];
             timetable.innerHTML += `${lessonCounter} пара - ${lesson}<br>`;
             lessonCounter++;
         } 

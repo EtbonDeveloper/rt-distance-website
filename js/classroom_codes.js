@@ -6,11 +6,11 @@ const provenProperties = [];
 
 for (const dayOfWeek in schedule) {
     for (const lessonTime in schedule[dayOfWeek]) {
-        if (lessonTime === 'str_day_of_week')
+        if (lessonTime === 'strDayOfWeek')
             continue;
 
         const lessonInfoObj = schedule[dayOfWeek][lessonTime]; 
-        const lesson = lessonInfoObj['lesson_name'];
+        const lesson = lessonInfoObj['lesson'];
         const classroomCode = lessonInfoObj['classroom_code'];
 
         if (provenProperties.includes(lesson) || lesson.includes(' або '))

@@ -33,7 +33,7 @@ const getLessonInfoObj = (lessonTimeObj) => {
 
     try {
         lessonTimeObj['lessonInfo'] = schedule[dayOfWeek][lessonTime];
-        lessonTimeObj['str_day_of_week'] = schedule[dayOfWeek]['str_day_of_week'];
+        lessonTimeObj['strDayOfWeek'] = schedule[dayOfWeek]['strDayOfWeek'];
     } catch {
         lessonTimeObj['lessonInfo'] = null;
     } finally {
