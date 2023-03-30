@@ -160,7 +160,7 @@
 				"08:30": {
 					"lesson_name": "Иностранный язык",
 					"classroom_code": "https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7",
-					"lesson_link": null,
+					"lesson_link": "https://us04web.zoom.us/j/8683630851?pwd=d5TMWY",
 					"lesson_number": "1",
 					"start_time": "08:30",
 					"end_time": "09:50"

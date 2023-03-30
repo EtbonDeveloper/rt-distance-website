@@ -67,8 +67,8 @@ const schedule = {
         'str_day_of_week': 'Четвер',
         '08:30': {
 	        'lesson_name': 'Іноземна мова',
-	        'classroom_code': 'Пугачова: <a href="https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7">Натисни на мене, щоб перейти у classroom Англійської мови.</a>',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom або Discord.'
+	        'classroom_code': 'Пугачова: <a href="https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7">Натисни на мене, щоб перейти у classroom Англійської мови.</a><br>Приступа: посилання на classroom немає. Посилання на Discord сервер просіть у вчителя.',
+            'lesson_link': 'Пугачова: Постійне посилання zoom: <a href="https://us04web.zoom.us/j/8683630851?pwd=d5TMWY">Натисни на мене, щоб перейти до zoom конференції</a>. Код доступу конференції: d5TMWY<br>Приступа: Конференція проходить у Discord.'
 	    },
         '10:00': {
 	        'lesson_name': 'Фізична культура',
