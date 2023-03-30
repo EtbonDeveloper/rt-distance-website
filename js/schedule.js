@@ -7,12 +7,12 @@ const schedule = {
             'lesson_link': 'Заходьте на пару в Discord сервері.'
 	    },
 	    '10:00': {
-	        'lesson_name': 'Теорія кіл',
+	        'lesson_name': 'Основи теорії кіл',
 	        'classroom_code': 'xbwv4zc',
             'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '11:30': {
-	        'lesson_name': 'Інженерна графіка',
+	        'lesson_name': 'Інженерна та комп\'ютерна графіка',
 	        'classroom_code': 'idfnskr',
             'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    }
@@ -30,7 +30,7 @@ const schedule = {
             'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
-	        'lesson_name': 'Фізика',
+	        'lesson_name': 'Фізика та астрономія',
 	        'classroom_code': 'ioi25s6',
             'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
@@ -48,7 +48,7 @@ const schedule = {
             'lesson_link': 'Постійне посилання на безпеку життєдіяльності: <a href="https://meet.google.com/met-uedi-wko">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '10:00': {
-	        'lesson_name': 'Основи програмування',
+	        'lesson_name': 'Основи програмування та алгоритмічні мови',
 	        'classroom_code': 'yw4r6xa',
             'lesson_link': 'Постійне посилання на Програмування: <a href="https://meet.google.com/uxe-ebcb-dbs">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
@@ -58,7 +58,7 @@ const schedule = {
             'lesson_link': 'Постійного посилання на Математику немає! Заходьте за новим посиланням у classroom.<br>Постійне посилання на Захист Вітчизни: <a href="https://meet.google.com/qag-kqao-znf">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
 	    '13:00': {
-		    'lesson_name': 'Укр. мова',
+		    'lesson_name': 'Українська мова',
 	        'classroom_code': 'zuwqrzq',
             'lesson_link': 'Постійне посилання на Укр. мову: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    }
@@ -94,12 +94,12 @@ const schedule = {
             'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
 	    },
         '10:00': {
-	        'lesson_name': 'Укр. літ',
+	        'lesson_name': 'Українська література',
 	        'classroom_code': 'pgeaznn',
             'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh">Натисни на мене, щоб перейти до google meet конференції.</a>'
 	    },
         '11:30': {
-	        'lesson_name': 'Біологія',
+	        'lesson_name': 'Біологія та екологія',
 	        'classroom_code': 'oeu36uo',
             'lesson_link': 'Постійне посилання zoom: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09">Натисни на мене, щоб перейти до zoom конференції.</a>'
 	    }

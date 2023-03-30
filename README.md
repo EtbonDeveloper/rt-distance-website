@@ -60,7 +60,7 @@
 					"end_time": "09:50"
 				},
 				"10:00": {
-					"lesson_name": "Теория цепей",
+					"lesson_name": "Основы теории цепей",
 					"classroom_code": "xbwv4zc",
 					"lesson_link": null,
 					"lesson_number": "2",
@@ -68,7 +68,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Инженерная графика",
+					"lesson_name": "Инженерная и компьютерная графика",
 					"classroom_code": "idfnskr",
 					"lesson_link": null,
 					"lesson_number": "3",
@@ -98,7 +98,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Физика",
+					"lesson_name": "Физика и астрономия",
 					"classroom_code": "ioi25s6",
 					"lesson_link": null,
 					"lesson_number": "3",
@@ -128,7 +128,7 @@
 					"end_time": "09:50"
 				},
 				"10:00": {
-					"lesson_name": "Основы программирования",
+					"lesson_name": "Основы программирования и алгоитмические языки",
 					"classroom_code": "yw4r6xa",
 					"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
 					"lesson_number": "2",
@@ -212,7 +212,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Биология",
+					"lesson_name": "Биология и экология",
 					"classroom_code": "oeu36uo",
 					"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
 					"lesson_number": "3",

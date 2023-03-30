@@ -13,7 +13,7 @@
 					"end_time": "09:50"
 				},
 				"10:00": {
-					"lesson_name": "Теорія кіл",
+					"lesson_name": "Основи теорії кіл",
 					"classroom_code": "xbwv4zc",
 					"lesson_link": null,
 					"lesson_number": "2",
@@ -21,7 +21,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Інженерна графіка",
+					"lesson_name": "Інженерна та комп'ютерна графіка",
 					"classroom_code": "idfnskr",
 					"lesson_link": null,
 					"lesson_number": "3",
@@ -51,7 +51,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Фізика",
+					"lesson_name": "Фізика та астрономія",
 					"classroom_code": "ioi25s6",
 					"lesson_link": null,
 					"lesson_number": "3",
@@ -81,7 +81,7 @@
 					"end_time": "09:50"
 				},
 				"10:00": {
-					"lesson_name": "Основи програмування",
+					"lesson_name": "Основи програмування та алгоритмічні мови",
 					"classroom_code": "yw4r6xa",
 					"lesson_link": "https://meet.google.com/uxe-ebcb-dbs",
 					"lesson_number": "2",
@@ -165,7 +165,7 @@
 					"end_time": "11:20"
 				},
 				"11:30": {
-					"lesson_name": "Біологія",
+					"lesson_name": "Біологія та екологія",
 					"classroom_code": "oeu36uo",
 					"lesson_link": "https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09",
 					"lesson_number": "3",
