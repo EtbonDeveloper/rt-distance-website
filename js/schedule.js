@@ -60,7 +60,7 @@ const schedule = {
 	    '13:00': {
 		    'lesson_name': 'Українська мова',
 	        'classroom_code': 'zuwqrzq',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    }
     },
     4: {
@@ -96,7 +96,7 @@ const schedule = {
         '10:00': {
 	        'lesson_name': 'Українська література',
 	        'classroom_code': 'pgeaznn',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/kgj-repw-nmh" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
         '11:30': {
 	        'lesson_name': 'Біологія та екологія',
