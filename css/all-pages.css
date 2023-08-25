@@ -89,17 +89,17 @@ a:active {
     flex-direction: column;
 }
 
-.container-color1 {
+.cyan {
     background-color: #cceafc;
     box-shadow: -4px 4px 10px 1px #c1dee8;
 }
 
-.container-color2 {
+.green {
     background-color: #ccfcce;
     box-shadow: -4px 4px 10px 1px #bcebbe;
 }
 
-.container-color3 {
+.pink {
     background-color: #fccccc;
     box-shadow: -4px 4px 10px 1px #ebbcbc;
 }
@@ -157,6 +157,7 @@ a:active {
 }
 
 .header-btn button {
+    display: inline-block;
     position: relative;
     width: 150px;
     height: 40px;
@@ -219,6 +220,10 @@ a:active {
     margin: 40px auto;
     border-radius: 20px;
     padding: 20px;
+}
+
+#timetable-header, .timetable {
+    text-align: center;
 }
 
 @media (max-width: 1000px) {

@@ -5,15 +5,17 @@ timetable.innerHTML = '';
 
 for (const dayOfWeek in schedule) {
     let lessonCounter = 1;
+
     for (const lessonTime in schedule[dayOfWeek]) {
         if (lessonTime === 'str_day_of_week')
             timetable.innerHTML += `${schedule[dayOfWeek][lessonTime]}:<br>`;
         else {
-            const lessonInfoObj = schedule[dayOfWeek][lessonTime]; 
+            const lessonInfoObj = schedule[dayOfWeek][lessonTime];
             const lesson = lessonInfoObj['lesson_name'];
             timetable.innerHTML += `${lessonCounter} пара - ${lesson}<br>`;
             lessonCounter++;
-        } 
+        }
     }
+    
     timetable.innerHTML += '<br>';
 }

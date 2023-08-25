@@ -7,10 +7,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
-    <link rel="manifest" href="../icon/site.webmanifest">
+    <link rel="manifest" type="text/css" href="../icon/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="../css/all-pages.css">
     <title>Розклад занять</title>
-    <link rel="stylesheet" href="../css/for_all_pages.css">
-    <style>#timetable-header {text-align: center;}</style>
 </head>
 <body>
     <div class="wrapper">
@@ -36,24 +35,23 @@
             </div>
         </div>
         <main>
-            <div class="container container-color2">
+            <div class="container green">
                 <h3 id="timetable-header">Розклад занять:</h3>   
-                <p id="timetable"><noscript>Щоб дізнатися розклад занять — ввімкніть в своєму браузері javaScript!</noscript></p>
+                <p id="timetable">Щоб дізнатися розклад занять — ввімкніть в своєму браузері javaScript!</p>
             </div>
         </main>
         <footer>
             <div class="container">
-                <h2>УВАГА! На сайті використовується локальний час вашого пристрою, для отримання точної інформації — переведіть години на київський час.</h2>
                 <h3 class="relation">Зв'язатися зі мною:</h3>
                 <p><span>Мій gmail: </span><a class="about" href="mailto:etbon.development@gmail.com" target="_blank"><br class="line-trans">etbon.development@gmail.com</a></p>
                 <p><span>Мій telegram: </span><a class="about" href="https://t.me/etbon_dev" target="_blank"><br class="line-trans">https://t.me/etbon_dev</a></p>
-                <p><span><br>&#169 2023 EtbonDevelopment. Всі права захищені.</span></p>
+                <p><span><br>&#169; 2023 EtbonDevelopment. Всі права захищені.</span></p>
             </div>
         </footer>
     </div>
-    <script type="module" src="../js/timetable.js"></script>
+    <script type="module" src="../js/classes.js"></script>
     <script>
-        document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = '../index.html');
+        document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = './index.html');
         document.querySelectorAll('.calls').forEach(btn => btn.onclick = () => location.href = './calls.html');
     </script>
 </body>

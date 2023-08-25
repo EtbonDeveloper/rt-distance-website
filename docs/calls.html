@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" type="text/css" href="../icon/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="../css/all-pages.css">
+    <title>Розклад дзвоників</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-btns">
+                <div class="header-btn left-btn">
+                    <button class="index">Головна сторінка</button>
+                </div>
+                <div class="header-btn right-btn">
+                    <button class="classes">Розклад занять</button>
+                </div>
+            </div>
+                <h1 class="header-text">Сайт дистанційного навчання РТ-211</h1>
+        </header>
+        <div class="alt-wrapper">
+            <div class="alt-header-btns">
+                <div class="alt-header-btn alt-left-btn">
+                    <button class="index">Головна сторінка</button>
+                </div>
+                <div class="alt-header-btn alt-right-btn">
+                    <button class="classes">Розклад занять</button>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="container cyan">
+                <h3 id="timetable-header">Розклад дзвоників:</h3>
+                <div class="timetable">
+                    <p>1 пара: 08:30 - 09:50</p>
+                    <p>2 пара: 10:00 - 11:20</p>
+                    <p>3 пара: 11:30 - 12:50</p>
+                    <p>4 пара: 13:00 - 14:20</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <h3 class="relation">Зв'язатися зі мною:</h3>
+                <p><span>Мій gmail: </span><a class="about" href="mailto:etbon.development@gmail.com" target="_blank"><br class="line-trans">etbon.development@gmail.com</a></p>
+                <p><span>Мій telegram: </span><a class="about" href="https://t.me/etbon_dev" target="_blank"><br class="line-trans">https://t.me/etbon_dev</a></p>
+                <p><span><br>&#169; 2023 EtbonDevelopment. Всі права захищені.</span></p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = './index.html');
+        document.querySelectorAll('.classes').forEach(btn => btn.onclick = () => location.href = './classes.html');
+    </script>
+</body>
+</html>
