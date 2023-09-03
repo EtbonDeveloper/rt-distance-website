@@ -1,107 +1,117 @@
 const schedule = {
     1: {
-        'str_day_of_week': 'Понеділок',
-        '08:30': {
-	        'lesson_name': 'Історія України',
-	        'classroom_code': 'x4wh3k7<br>Discord сервер Історії України: <a href="https://discord.gg/CWrxRjr6aT" target="_blank">Натисни, щоб перейти за посиланням.</a>',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте на пару у Discord.'
+		'strDayOfWeek': 'Понеділок',
+		'numberOfLessons': 4,
+        1: {
+	        'lessonName': 'Матеріалознавство радіоелектронних засобів',
+	        'classroomCode': 'xpuxvha',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-	    '10:00': {
-	        'lesson_name': 'Основи теорії кіл',
-	        'classroom_code': 'xbwv4zc',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+	    2: {
+	        'lessonName': 'Філософія',
+	        'classroomCode': '5h6rdgx',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-        '11:30': {
-	        'lesson_name': 'Інженерна та комп\'ютерна графіка',
-	        'classroom_code': 'idfnskr',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+        3: {
+	        'lessonName': 'Фізична культура',
+	        'classroomCode': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
+	    },
+		4: {
+	        'lessonName': 'Джерела живлення РЕА',
+	        'classroomCode': 'Немає',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    }
     },
     2: {
-        'str_day_of_week': 'Вівторок',
-        '08:30': {
-	        'lesson_name': 'Технології',
-	        'classroom_code': 'md3a47s',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+		'strDayOfWeek': 'Вівторок',
+		'numberOfLessons': 4,
+        1: {
+	        'lessonName': 'Технології',
+	        'classroomCode': 'md3a47s',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-        '10:00': {
-	        'lesson_name': 'Захист Вітчизни',
-	        'classroom_code': 'npgncuz',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/qag-kqao-znf" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+        2: {
+	        'lessonName': 'Захист Вітчизни',
+	        'classroomCode': 'npgncuz',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/qag-kqao-znf" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-        '11:30': {
-	        'lesson_name': 'Фізика та астрономія',
-	        'classroom_code': 'ioi25s6',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+        3: {
+	        'lessonName': 'Фізика та астрономія',
+	        'classroomCode': 'ioi25s6',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-        '13:00': {
-	        'lesson_name': 'Фізична культура',
-	        'classroom_code': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає!'
+        4: {
+	        'lessonName': 'Фізична культура',
+	        'classroomCode': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    }
     },
     3: {
-        'str_day_of_week': 'Середа',
-        '08:30': {
-	        'lesson_name': 'Безпека життєдіяльності',
-	        'classroom_code': 'p766acy',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/met-uedi-wko" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+		'strDayOfWeek': 'Середа',
+		'numberOfLessons': 4,
+        1: {
+	        'lessonName': 'Безпека життєдіяльності',
+	        'classroomCode': 'p766acy',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/met-uedi-wko" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-        '10:00': {
-	        'lesson_name': 'Основи програмування та алгоритмічні мови',
-	        'classroom_code': 'yw4r6xa',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/uxe-ebcb-dbs" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+        2: {
+	        'lessonName': 'Основи програмування та алгоритмічні мови',
+	        'classroomCode': 'yw4r6xa',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/uxe-ebcb-dbs" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-        '11:30': {
-	        'lesson_name': 'Математика або Захист Вітчизни',
-	        'classroom_code': 'Математика: ikkjwrr. Захист Вітчизни: npgncuz',
-            'lesson_link': 'Постійного посилання на Математику немає! Заходьте за новим посиланням у classroom.<br>Постійне посилання на Захист Вітчизни: <a href="https://meet.google.com/qag-kqao-znf" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+        3: {
+	        'lessonName': 'Математика або Захист Вітчизни',
+	        'classroomCode': 'Математика: ikkjwrr. Захист Вітчизни: npgncuz',
+            'lessonLink': 'Постійного посилання на Математику немає!<br>Постійне посилання на Захист Вітчизни: <a href="https://meet.google.com/qag-kqao-znf" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-	    '13:00': {
-		    'lesson_name': 'Українська мова',
-	        'classroom_code': 'zuwqrzq',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+	    4: {
+		    'lessonName': 'Українська мова',
+	        'classroomCode': 'zuwqrzq',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    }
     },
     4: {
-        'str_day_of_week': 'Четвер',
-        '08:30': {
-	        'lesson_name': 'Іноземна мова',
-	        'classroom_code': 'Пугачова: <a href="https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7" target="_blank">Натисни, щоб перейти за посиланням.</a><br>Приступа: посилання на classroom немає. Посилання на Discord сервер просіть у вчителя.',
-            'lesson_link': 'Пугачова: постійне посилання на конференцію: <a href="https://us04web.zoom.us/j/8683630851?pwd=d5TMWY" target="_blank">Натисни, щоб перейти за посиланням.</a>. Код доступу конференції: d5TMWY<br>Приступа: Конференція проходить у Discord.'
+		'strDayOfWeek': 'Четвер',
+		'numberOfLessons': 4,
+        1: {
+	        'lessonName': 'Іноземна мова',
+	        'classroomCode': 'Пугачова: <a href="https://classroom.google.com/c/NTQ0OTY5NTkyNDgw?cjc=x4z7qq7" target="_blank">Натисни, щоб перейти за посиланням.</a><br>Приступа: посилання на classroom немає. Посилання на Discord сервер просіть у вчителя.',
+            'lessonLink': 'Пугачова: постійне посилання на конференцію: <a href="https://us04web.zoom.us/j/8683630851?pwd=d5TMWY" target="_blank">Натисни, щоб перейти за посиланням.</a>. Код доступу конференції: d5TMWY<br>Приступа: Конференція проходить у Discord.'
 	    },
-        '10:00': {
-	        'lesson_name': 'Фізична культура',
-	        'classroom_code': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає!'
+        2: {
+	        'lessonName': 'Фізична культура',
+	        'classroomCode': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-        '11:30': {
-	        'lesson_name': 'Математика',
-	        'classroom_code': 'ikkjwrr',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+        3: {
+	        'lessonName': 'Математика',
+	        'classroomCode': 'ikkjwrr',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-        '13:00': {
-	        'lesson_name': 'Стандартизація',
-	        'classroom_code': '6ogqnj7',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+        4: {
+	        'lessonName': 'Стандартизація',
+	        'classroomCode': '6ogqnj7',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    }
     },
     5: {
-        'str_day_of_week': 'П\'ятниця',
-        '08:30': {
-	        'lesson_name': 'Вища математика',
-	        'classroom_code': '<a href="https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss" target="_blank">Натисни, щоб перейти за посиланням.</a>',
-            'lesson_link': 'Постійного посилання на конференцію для цього предмета немає! Заходьте за новим посиланням у classroom.'
+		'strDayOfWeek': 'П\'ятниця',
+		'numberOfLessons': 3,
+        1: {
+	        'lessonName': 'Вища математика',
+	        'classroomCode': '<a href="https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    },
-        '10:00': {
-	        'lesson_name': 'Українська література',
-	        'classroom_code': 'pgeaznn',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+        2: {
+	        'lessonName': 'Українська література',
+	        'classroomCode': 'pgeaznn',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
-        '11:30': {
-	        'lesson_name': 'Біологія та екологія',
-	        'classroom_code': 'oeu36uo',
-            'lesson_link': 'Постійне посилання на конференцію: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09" target="_blank">Натисни, щоб перейти за посиланням.</a>'
+        3: {
+	        'lessonName': 'Біологія та екологія',
+	        'classroomCode': 'oeu36uo',
+            'lessonLink': 'Постійне посилання на конференцію: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    }
     }
 }
