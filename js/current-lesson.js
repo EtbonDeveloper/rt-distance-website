@@ -1,4 +1,5 @@
 import schedule from './schedule.js';
+import calls from './calls.js';
 
 const lessonInfo = document.querySelector('#lesson-info');
 
@@ -7,23 +8,18 @@ let lessonObject;
 let strDayOfWeek;
 let numberOfLessons;
 
-const dayOfWeekObject = {'пн': 1, 'вт': 2, 'ср': 3, 'чт': 4, 'пт': 5, 'сб': 6,'вс': 0,}
+const dayOfWeekObject = {'пн': 1, 'вт': 2, 'ср': 3, 'чт': 4, 'пт': 5, 'сб': 6, 'вс': 0};
+const lessonsInDay = 4;
 
 const writeLessonInfoInTag = () => {
     const date = new Date;
     const currentUATime = date.toLocaleTimeString('ua', {timeZone: 'Europe/Kyiv'});
     const dayOfWeek = dayOfWeekObject[date.toLocaleDateString('ua', {timeZone: 'Europe/Kyiv', weekday: 'short'})];
 
-    if (currentUATime >= '08:30' && currentUATime <= '09:50') {
-        lessonNumber = 1;
-    } else if (currentUATime >= '10:00' && currentUATime <= '11:20') {
-        lessonNumber = 2;
-    } else if (currentUATime >= '11:50' && currentUATime <= '13:10') {
-        lessonNumber = 3;
-    } else if (currentUATime >= '13:20' && currentUATime <= '14:40') {
-        lessonNumber = 4;
-    } else {
-        lessonNumber = null;
+    for (let i = 1; i <= lessonsInDay; ++i) {
+        if (currentUATime >= calls[i].startTime && currentUATime <= calls[i].endTime) {
+            lessonNumber = i;
+        }
     }
 
     try {
@@ -37,11 +33,11 @@ const writeLessonInfoInTag = () => {
     if (lessonObject) {
         const {lessonName, classroomCode, lessonLink} = lessonObject;
         lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Код або посилання classroom: ${classroomCode}<br>${lessonLink}`;
-    } else if (dayOfWeek === 6 || dayOfWeek === 0) {
+    } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
         lessonInfo.innerHTML = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
-    } else if (currentUATime >= '00:00' && currentUATime < '08:30') {
+    } else if (currentUATime < calls[1].startTime || (currentUATime < calls[2].startTime && numberOfLessons === 3)) {
         lessonInfo.innerHTML = `Зараз: ${currentUATime}. На сьогодні пари ще не розпочалися, відпочивайте!`;
-    } else if ((numberOfLessons === 3 && currentUATime > '13:10') || (numberOfLessons === 4 && currentUATime > '14:40')) {
+    } else if (currentUATime > calls[4].endTime) {
         lessonInfo.innerHTML = `Зараз: ${currentUATime}. На сьогодні пари вже закінчилися, відпочивайте!`;
     } else {
         lessonInfo.innerHTML = `Зараз: ${currentUATime}. Ідіть на перерву та відпочивайте!`;

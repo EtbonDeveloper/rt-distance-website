@@ -9,9 +9,9 @@ for (const dayOfWeek in schedule) {
 
     for (const lessonNumber in schedule[dayOfWeek]) {
         if (Number.isInteger(+lessonNumber)) {
-            const lessonInfoObj = schedule[dayOfWeek][lessonNumber];
-            const lesson = lessonInfoObj.lessonName;
-            timetable.innerHTML += `${lessonCounter++} пара - ${lesson}<br>`;
+            const lessonObject = schedule[dayOfWeek][lessonNumber];
+            const lessonName = lessonObject.lessonName;
+            timetable.innerHTML += `${lessonCounter++} пара - ${lessonName}<br>`;
         }
     }
     

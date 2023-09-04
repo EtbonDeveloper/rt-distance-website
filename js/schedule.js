@@ -25,12 +25,7 @@ const schedule = {
     },
     2: {
 		'strDayOfWeek': 'Вівторок',
-		'numberOfLessons': 4,
-        1: {
-	        'lessonName': 'Технології',
-	        'classroomCode': 'md3a47s',
-            'lessonLink': 'Постійне посилання на конференцію: <a href="https://us04web.zoom.us/j/3197524662?pwd=mNgDz72VTb68NXISNR5hfGcOCp12Tl.1" target="_blank">Натисни, щоб перейти за посиланням.</a>'
-	    },
+		'numberOfLessons': 3,
         2: {
 	        'lessonName': 'Захист Вітчизни',
 	        'classroomCode': 'npgncuz',
@@ -49,12 +44,7 @@ const schedule = {
     },
     3: {
 		'strDayOfWeek': 'Середа',
-		'numberOfLessons': 4,
-        1: {
-	        'lessonName': 'Безпека життєдіяльності',
-	        'classroomCode': 'p766acy',
-            'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/met-uedi-wko" target="_blank">Натисни, щоб перейти за посиланням.</a>'
-	    },
+		'numberOfLessons': 3,
         2: {
 	        'lessonName': 'Основи програмування та алгоритмічні мови',
 	        'classroomCode': 'yw4r6xa',
@@ -98,21 +88,21 @@ const schedule = {
     5: {
 		'strDayOfWeek': 'П\'ятниця',
 		'numberOfLessons': 3,
-        1: {
-	        'lessonName': 'Вища математика',
-	        'classroomCode': '<a href="https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss" target="_blank">Натисни, щоб перейти за посиланням.</a>',
-            'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
-	    },
         2: {
-	        'lessonName': 'Українська література',
+			'lessonName': 'Українська література',
 	        'classroomCode': 'pgeaznn',
             'lessonLink': 'Постійне посилання на конференцію: <a href="https://meet.google.com/fuy-bgkm-bcp" target="_blank">Натисни, щоб перейти за посиланням.</a>'
 	    },
         3: {
-	        'lessonName': 'Біологія та екологія',
+			'lessonName': 'Біологія та екологія',
 	        'classroomCode': 'oeu36uo',
             'lessonLink': 'Постійне посилання на конференцію: <a href="https://us05web.zoom.us/j/8411452864?pwd=ZVRXUlFrQ3B6YVVKZUt3eVozMTU3UT09" target="_blank">Натисни, щоб перейти за посиланням.</a>'
-	    }
+	    },
+		4: {
+			'lessonName': 'Вища математика',
+			'classroomCode': '<a href="https://classroom.google.com/c/NTgyNzMwODg5MjAy?cjc=r4qjdss" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+			'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
+		},
     }
 }
 
