@@ -1,5 +1,5 @@
 import schedule from './schedule.js';
-import calls from './calls.js';
+import calls from './calls-object.js';
 
 const lessonInfo = document.querySelector('#lesson-info');
 

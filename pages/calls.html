@@ -37,12 +37,7 @@
         <main>
             <div class="container cyan">
                 <h3 id="timetable-header">Розклад дзвоників:</h3>
-                <div class="timetable">
-                    <p>1 пара: 08:30 - 09:50</p>
-                    <p>2 пара: 10:00 - 11:20</p>
-                    <p>3 пара: 11:50 - 13:10</p>
-                    <p>4 пара: 13:20 - 14:40</p>
-                </div>
+                <div class="timetable" id="calls"></div>
             </div>
         </main>
         <footer>
@@ -54,6 +49,7 @@
             </div>
         </footer>
     </div>
+    <script type="module" src="../js/calls.js"></script>
     <script>
         document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = '../index.html');
         document.querySelectorAll('.classes').forEach(btn => btn.onclick = () => location.href = './classes.html');
