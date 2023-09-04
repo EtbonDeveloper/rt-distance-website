@@ -19,7 +19,7 @@ const schedule = {
 	    },
 		4: {
 	        'lessonName': 'Джерела живлення РЕА',
-	        'classroomCode': 'Немає',
+	        'classroomCode': 'mdnauxz',
             'lessonLink': 'Постійного посилання на конференцію для цього предмета немає!'
 	    }
     },

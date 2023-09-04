@@ -7,10 +7,12 @@ let lessonObject;
 let strDayOfWeek;
 let numberOfLessons;
 
+const dayOfWeekObject = {'пн': 1, 'вт': 2, 'ср': 3, 'чт': 4, 'пт': 5, 'сб': 6,'вс': 0,}
+
 const writeLessonInfoInTag = () => {
     const date = new Date;
     const currentUATime = date.toLocaleTimeString('ua', {timeZone: 'Europe/Kyiv'});
-    const dayOfWeek = date.getDay();
+    const dayOfWeek = dayOfWeekObject[date.toLocaleDateString('ua', {timeZone: 'Europe/Kyiv', weekday: 'short'})];
 
     if (currentUATime >= '08:30' && currentUATime <= '09:50') {
         lessonNumber = 1;
