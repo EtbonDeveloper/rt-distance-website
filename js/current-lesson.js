@@ -3,7 +3,6 @@ import calls from './calls-object.js';
 
 const lessonInfo = document.querySelector('#lesson-info');
 
-let lessonNumber;
 let lessonObject;
 let strDayOfWeek;
 let numberOfLessons;
@@ -15,6 +14,8 @@ const writeLessonInfoInTag = () => {
     const date = new Date;
     const currentUATime = date.toLocaleTimeString('ua', {timeZone: 'Europe/Kyiv'});
     const dayOfWeek = dayOfWeekObject[date.toLocaleDateString('ua', {timeZone: 'Europe/Kyiv', weekday: 'short'})];
+    
+    let lessonNumber = null;
 
     for (let i = 1; i <= lessonsInDay; ++i) {
         if (currentUATime >= calls[i].startTime && currentUATime <= calls[i].endTime) {
@@ -24,8 +25,8 @@ const writeLessonInfoInTag = () => {
 
     try {
         lessonObject = schedule[dayOfWeek][lessonNumber];
-        strDayOfWeek = schedule[dayOfWeek]['strDayOfWeek'];
-        numberOfLessons = schedule[dayOfWeek]['numberOfLessons'];
+        strDayOfWeek = schedule[dayOfWeek].strDayOfWeek;
+        numberOfLessons = schedule[dayOfWeek].numberOfLessons;
     } catch {
         lessonObject = null;
     }
