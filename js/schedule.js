@@ -14,7 +14,7 @@ const schedule = {
 	    },
         3: {
 	        'lessonName': 'Фізичне виховання',
-	        'classroomCode': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">Натисни, щоб перейти за посиланням.</a>',
+	        'classroomCode': '<a href="https://classroom.google.com/c/MTUxNTcxNTg1Nzkx?cjc=qgcrsap" target="_blank">натисни, щоб перейти за посиланням.</a>',
             'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 	    },
 		4: {
@@ -52,7 +52,7 @@ const schedule = {
 	    },
         3: {
 	        'lessonName': 'Фізика',
-	        'classroomCode': 'немає',
+	        'classroomCode': '<a href="https://classroom.google.com/c/NjIwODYwNzY3ODIy?hl=ru&hl=ru&cjc=y22aoi6" target="_blank">натисни, щоб перейти за посиланням.</a>',
             'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 	    },
 	    4: {
