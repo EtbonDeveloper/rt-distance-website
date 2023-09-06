@@ -47,7 +47,7 @@ const schedule = {
 		'numberOfLessons': 3,
         2: {
 	        'lessonName': 'Іноземна мова (Даниленко та Приступа)',
-	        'classroomCode': 'Даниленко: soyolf5',
+	        'classroomCode': 'Даниленко: soyolf5, Приступа: wxuz52i',
             'lessonLink': 'Даниленко: постійного посилання на конференцію для цього предмета немає! Приступа: пара проходить у discord сервері!'
 	    },
         3: {
