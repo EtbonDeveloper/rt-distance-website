@@ -35,13 +35,13 @@ const writeLessonInfoInTag = () => {
         const {lessonName, classroomCode, lessonLink} = lessonObject;
         lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Код або посилання classroom: ${classroomCode}<br>${lessonLink}`;
     } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
-        lessonInfo.innerHTML = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
+        lessonInfo.innerText = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
     } else if (currentUATime < calls[1].startTime || (currentUATime < calls[2].startTime && numberOfLessons === 3)) {
-        lessonInfo.innerHTML = `Зараз: ${currentUATime}. На сьогодні пари ще не розпочалися, відпочивайте!`;
+        lessonInfo.innerText = `Зараз: ${currentUATime}. На сьогодні пари ще не розпочалися, відпочивайте!`;
     } else if (currentUATime > calls[4].endTime) {
-        lessonInfo.innerHTML = `Зараз: ${currentUATime}. На сьогодні пари вже закінчилися, відпочивайте!`;
+        lessonInfo.innerText = `Зараз: ${currentUATime}. На сьогодні пари вже закінчилися, відпочивайте!`;
     } else {
-        lessonInfo.innerHTML = `Зараз: ${currentUATime}. Ідіть на перерву та відпочивайте!`;
+        lessonInfo.innerText = `Зараз: ${currentUATime}. Ідіть на перерву та відпочивайте!`;
     }
 }
 
