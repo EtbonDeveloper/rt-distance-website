@@ -33,7 +33,7 @@ const writeLessonInfoInTag = () => {
 
     if (lessonObject) {
         const {lessonName, classroomCode, lessonLink} = lessonObject;
-        lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Код або посилання classroom: ${classroomCode}<br>${lessonLink}`;
+        lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Код або посилання classroom: ${classroomCode}<br>Посилання на конференцію: ${lessonLink}`;
     } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
         lessonInfo.innerText = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
     } else if (currentUATime < calls[1].startTime || (currentUATime < calls[2].startTime && numberOfLessons === 3)) {
