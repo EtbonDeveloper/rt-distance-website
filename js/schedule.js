@@ -38,7 +38,7 @@ const schedule = {
 	    },
         4: {
 	        'lessonName': 'Вища математика або Сигнали та процеси в радіотехніці',
-	        'classroomCode': 'jm4muh6, немає',
+	        'classroomCode': 'jm4muh6, rmuq5oo',
             'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 	    }
     },
@@ -66,7 +66,7 @@ const schedule = {
 		'numberOfLessons': 4,
         1: {
 	        'lessonName': 'Сигнали та процеси в радіотехніці',
-	        'classroomCode': 'немає',
+	        'classroomCode': 'rmuq5oo',
             'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 	    },
         2: {
@@ -81,8 +81,8 @@ const schedule = {
 	    },
         4: {
 	        'lessonName': 'Основи технічної механіки',
-	        'classroomCode': 'немає',
-            'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
+	        'classroomCode': '<a href="https://classroom.google.com/c/NjIwODA3OTk3ODc4?cjc=wixnvsa target="_blank">натисни, щоб перейти за посиланням</a>',
+            'lessonLink': '<a href="https://us04web.zoom.us/j/2537342491?pwd=U2x0RU14Z01pdmFsVlBnckpGUWpudz09 target="_blank">натисни, щоб перейти за посиланням</a>'
 	    }
     },
     5: {
