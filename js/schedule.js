@@ -39,7 +39,7 @@ const schedule = {
         4: {
 	        'lessonName': 'Вища математика або Сигнали та процеси в радіотехніці',
 	        'classroomCode': 'jm4muh6, rmuq5oo',
-            'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
+            'lessonLink': '<a href="https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09" target="_blank">натисни, щоб перейти за посиланням</a>, постійного посилання на конференцію для цього предмета немає!'
 	    }
     },
     3: {
@@ -71,7 +71,7 @@ const schedule = {
 	    },
         2: {
 	        'lessonName': 'Радіопередавальні пристрої',
-	        'classroomCode': 'немає',
+	        'classroomCode': '7tgus3v',
             'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 	    },
         3: {
@@ -91,7 +91,7 @@ const schedule = {
         2: {
 			'lessonName': 'Вища математика',
 	        'classroomCode': 'jm4muh6',
-            'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
+            'lessonLink': '<a href="https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09" target="_blank">натисни, щоб перейти за посиланням</a>'
 	    },
         3: {
 			'lessonName': 'Матеріалознавство радіоелектронних засобів та елементна база РЕА',
@@ -100,7 +100,7 @@ const schedule = {
 	    },
 		4: {
 			'lessonName': 'Радіопередавальні пристрої',
-			'classroomCode': 'немає',
+			'classroomCode': '7tgus3v',
 			'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 		},
     }
