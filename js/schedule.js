@@ -81,8 +81,8 @@ const schedule = {
 	    },
         4: {
 	        'lessonName': 'Основи технічної механіки',
-	        'classroomCode': '<a href="https://classroom.google.com/c/NjIwODA3OTk3ODc4?cjc=wixnvsa target="_blank">натисни, щоб перейти за посиланням</a>',
-            'lessonLink': '<a href="https://us04web.zoom.us/j/2537342491?pwd=U2x0RU14Z01pdmFsVlBnckpGUWpudz09 target="_blank">натисни, щоб перейти за посиланням</a>'
+	        'classroomCode': '<a href="https://classroom.google.com/c/NjIwODA3OTk3ODc4?cjc=wixnvsa" target="_blank">натисни, щоб перейти за посиланням</a>',
+            'lessonLink': '<a href="https://us04web.zoom.us/j/2537342491?pwd=U2x0RU14Z01pdmFsVlBnckpGUWpudz09" target="_blank">натисни, щоб перейти за посиланням</a>'
 	    }
     },
     5: {
