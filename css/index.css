@@ -7,19 +7,19 @@ ol, ul {
 }
 
 #lesson-info a {
-    color: #f55145;
+    color: #239126;
 }
 
 #lesson-info a:hover {
-    color: #fa9332;
+    color: #1a6d1d;
 }
 
 .pink a {
-    color: #187187;
+    color: #f55145;
 }
 
 .pink a:hover {
-    color: #1f9bab;
+    color: #e43124;
 }
 
 #which-lesson, #classroom-codes-header {
