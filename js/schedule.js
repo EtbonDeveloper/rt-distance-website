@@ -52,7 +52,7 @@ const schedule = {
 		},
 		3: {
 			'lessonName': 'Фізика',
-			'classroomCode': '<a href="https://classroom.google.com/c/NjIwODYwNzY3ODIy?hl=ru&hl=ru&cjc=y22aoi6" target="_blank">https://classroom.google.com/c/NjIwODYwNzY3ODIy?hl=ru&hl=ru&cjc=y22aoi6</a>',
+			'classroomCode': '<a href="https://classroom.google.com/c/NjIwODYwNzY3ODIy?cjc=y22aoi6" target="_blank">https://classroom.google.com/c/NjIwODYwNzY3ODIy?cjc=y22aoi6</a>',
 			'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
 		},
 		4: {

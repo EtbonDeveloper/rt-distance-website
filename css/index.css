@@ -6,12 +6,52 @@ ol, ul {
     padding-left: 30px;
 }
 
+.hidden {
+    display: none;
+}
+
 #lesson-info a {
     color: #239126;
 }
 
 #lesson-info a:hover {
     color: #1a6d1d;
+}
+
+#popup {
+    text-wrap: nowrap;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    left: 50%;
+    top: 98%;
+    transform: translate(-50%, -98%);
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#classroom-btn {
+    font-size: inherit;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e6756d;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#classroom-btn:active {
+    background-color: #ee564b;
+}
+
+.underline {
+    color: #9e349e;
+}
+
+.underline:hover {
+    text-decoration: underline;
 }
 
 .pink a {
@@ -27,13 +67,24 @@ ol, ul {
 }
 
 @media (max-width: 480px) {
+    #popup {
+        font-size: 12px;
+        padding: 4px;
+    }
+
     ol, ul {
         padding-left: 22px;
     }
 }
 
 @media (max-width: 350px) {
+    #popup {
+        font-size: 10px;
+        padding: 3px;
+    }
+
     ol, ul {
         padding-left: 20px;
     }
+
 }
