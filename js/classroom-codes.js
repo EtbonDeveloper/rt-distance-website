@@ -106,7 +106,7 @@ function writeClassroomCodes() {
                         classroomCodeItem.innerHTML = `${lessonName}: `;
                         classroomCodeItem.append(classroomCodeElement);
                     } else {
-                        classroomCodeItem.innerHTML = `${lessonName}: ${classroomCode}`;
+                        classroomCodeItem.innerHTML = `${lessonName}:<br>${classroomCode}`;
                     }
 
                     codesList.prepend(classroomCodeItem);
