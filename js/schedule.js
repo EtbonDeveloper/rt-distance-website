@@ -39,7 +39,7 @@ const schedule = {
 		4: {
 			'lessonName': 'Вища математика або Сигнали та процеси в радіотехніці',
 			'classroomCode': 'Вища математика: <a href="https://classroom.google.com/c/NjIwMTk3NzgwNzkw?cjc=jm4muh6" target="_blank">https://classroom.google.com/c/NjIwMTk3NzgwNzkw?cjc=jm4muh6</a><br>Сигнали та процеси в радіотехніці: <a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
-			'lessonLink': 'Вища математика: <a href="https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09" target="_blank">https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09</a><br>Сигнали та процеси в радіотехніці: пара проходить у групі в Viber!'
+			'lessonLink': 'Вища математика: <a href="https://us05web.zoom.us/j/2030074654?pwd=37aT6g2ap17AkA0EEzqbjBMVGNKnhW.1" target="_blank">https://us05web.zoom.us/j/2030074654?pwd=37aT6g2ap17AkA0EEzqbjBMVGNKnhW.1</a><br>Сигнали та процеси в радіотехніці: пара проходить у групі в Viber!'
 		}
 	},
 	3: {
@@ -91,7 +91,7 @@ const schedule = {
 		2: {
 			'lessonName': 'Вища математика',
 			'classroomCode': '<a href="https://classroom.google.com/c/NjIwMTk3NzgwNzkw?cjc=jm4muh6" target="_blank">https://classroom.google.com/c/NjIwMTk3NzgwNzkw?cjc=jm4muh6</a>',
-			'lessonLink': '<a href="https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09" target="_blank">https://us02web.zoom.us/j/3796839976?pwd=dEpTaERyUFFMQVJPTEcwVk1oLy8wZz09</a>'
+			'lessonLink': '<a href="https://us05web.zoom.us/j/2030074654?pwd=37aT6g2ap17AkA0EEzqbjBMVGNKnhW.1" target="_blank">https://us05web.zoom.us/j/2030074654?pwd=37aT6g2ap17AkA0EEzqbjBMVGNKnhW.1</a>'
 		},
 		3: {
 			'lessonName': 'Матеріалознавство радіоелектронних засобів та елементна база РЕА',
