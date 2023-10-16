@@ -10,7 +10,7 @@ const schedule = {
 		2: {
 			'lessonName': 'Основи філософських знань',
 			'classroomCode': '<a href="https://classroom.google.com/c/NjIwODQ4NzkyOTMz?cjc=5h6rdgx" target="_blank">https://classroom.google.com/c/NjIwODQ4NzkyOTMz?cjc=5h6rdgx</a>',
-			'lessonLink': 'постійного посилання на конференцію для цього предмета немає!'
+			'lessonLink': '<a href="https://us05web.zoom.us/j/4651634128?pwd=bFVGbmlOMVhDWGdoelNDUHROSHlwdz09" target="_blank">https://us05web.zoom.us/j/4651634128?pwd=bFVGbmlOMVhDWGdoelNDUHROSHlwdz09</a>'
 		},
 		3: {
 			'lessonName': 'Фізичне виховання',
