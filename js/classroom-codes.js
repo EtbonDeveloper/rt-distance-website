@@ -75,43 +75,41 @@ function writeClassroomCodes() {
 
     for (const dayOfWeek in schedule) {
         for (const lessonNumber in schedule[dayOfWeek]) {
-            if (Number.isInteger(+lessonNumber)) {
-                const lessonObject = schedule[dayOfWeek][lessonNumber];
-                const lessonName = lessonObject.lessonName;
-                let classroomCode = lessonObject.classroomCode;
+            const lessonObject = schedule[dayOfWeek][lessonNumber];
+            const lessonName = lessonObject.lessonName;
+            let classroomCode = lessonObject.classroomCode;
 
-                if (!provenProperties.includes(lessonName) && !lessonName.includes(' або ')) {
-                    const classroomCodeItem = document.createElement('li');
-                    const classroomCodeElement = document.createElement('span');
+            if (!provenProperties.includes(lessonName) && !lessonName.includes('/')) {
+                const classroomCodeItem = document.createElement('li');
+                const classroomCodeElement = document.createElement('span');
 
-                    if (className == 'codes') {
-                        const matches = [...classroomCode.matchAll(/cjc=([A-Za-z0-9]{7})/g)];
-                        let classroomCodes = [];
+                if (className == 'codes') {
+                    const matches = [...classroomCode.matchAll(/cjc=([A-Za-z0-9]{7})/g)];
+                    let classroomCodes = [];
 
-                        for (const match of matches) {
-                            classroomCodes.push(match[1]);
-                        }
-
-                        classroomCode = [...new Set(classroomCodes)].toString();
-                        classroomCodes = classroomCode.split(',');
-
-                        if (classroomCodes.length == 2) {
-                            classroomCodeElement.append(createClassroomCodeElement(classroomCodes[0]));
-                            classroomCodeElement.append(', ');
-                            classroomCodeElement.append(createClassroomCodeElement(classroomCodes[1]));
-                        } else {
-                            classroomCodeElement.append(createClassroomCodeElement(classroomCode));
-                        }
-
-                        classroomCodeItem.innerHTML = `${lessonName}: `;
-                        classroomCodeItem.append(classroomCodeElement);
-                    } else {
-                        classroomCodeItem.innerHTML = `${lessonName}:<br>${classroomCode}`;
+                    for (const match of matches) {
+                        classroomCodes.push(match[1]);
                     }
 
-                    codesList.prepend(classroomCodeItem);
-                    provenProperties.push(lessonName);
+                    classroomCode = [...new Set(classroomCodes)].toString();
+                    classroomCodes = classroomCode.split(',');
+
+                    if (classroomCodes.length == 2) {
+                        classroomCodeElement.append(createClassroomCodeElement(classroomCodes[0]));
+                        classroomCodeElement.append(', ');
+                        classroomCodeElement.append(createClassroomCodeElement(classroomCodes[1]));
+                    } else {
+                        classroomCodeElement.append(createClassroomCodeElement(classroomCode));
+                    }
+
+                    classroomCodeItem.innerHTML = `${lessonName}: `;
+                    classroomCodeItem.append(classroomCodeElement);
+                } else {
+                    classroomCodeItem.innerHTML = `${lessonName}:<br>${classroomCode}`;
                 }
+
+                codesList.prepend(classroomCodeItem);
+                provenProperties.push(lessonName);
             }
         }
     }
