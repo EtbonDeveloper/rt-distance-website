@@ -9,21 +9,21 @@ writeLessonInfo();
 setInterval(writeLessonInfo, 1000);
 
 function writeLessonInfo() {
-    let lessonObject;
-    let strDayOfWeek;
-    let numberOfLessons;
-
     const date = new Date;
     const currentUATime = date.toLocaleTimeString('ua', {timeZone: 'Europe/Kyiv'});
     const dayOfWeek = dayOfWeekObject[date.toLocaleDateString('ua', {timeZone: 'Europe/Kyiv', weekday: 'short'})];
     
     let lessonNumber = null;
 
-    for (let i = 1; i <= 4; ++i) {
-        if (currentUATime >= calls[i].startTime && currentUATime <= calls[i].endTime) {
-            lessonNumber = i;
+    for (const call in calls) {
+        if (currentUATime >= calls[call].startTime && currentUATime <= calls[call].endTime) {
+            lessonNumber = call;
         }
     }
+
+    let lessonObject;
+    let strDayOfWeek = null;
+    let numberOfLessons = null;
 
     try {
         lessonObject = schedule[dayOfWeek][lessonNumber];
@@ -34,8 +34,8 @@ function writeLessonInfo() {
     }
 
     if (lessonObject) {
-        const {lessonName, classroomCode, lessonLink} = lessonObject;
-        lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Посилання classroom: ${classroomCode}<br>Посилання на конференцію: ${lessonLink}`;
+        const {lessonName, courseLink, lessonLink} = lessonObject;
+        lessonInfo.innerHTML = `${strDayOfWeek}:<br>Сьогодні о ${currentUATime} у нас за розкладом: ${lessonName}.<br>Посилання на курс: ${courseLink}<br>Посилання на конференцію: ${lessonLink}`;
     } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
         lessonInfo.innerText = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
     } else {
