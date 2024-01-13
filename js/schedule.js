@@ -19,7 +19,7 @@ const schedule = {
 	2: {
 		1: {
 			'lessonName': 'Основи конструювання і технології виробництва РЕА',
-			'courseLink': 'немає',
+			'courseLink': '<a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a>',
 			'lessonLink': 'немає'
 		},
 		2: {
@@ -34,7 +34,7 @@ const schedule = {
 		},
 		4: {
 			'lessonName': 'Радіоприймальні пристрої/Пристрої НВЧ та антени',
-			'courseLink': 'немає, немає',
+			'courseLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: немає',
 			'lessonLink': 'немає'
 		}
 	},
@@ -63,7 +63,7 @@ const schedule = {
 	4: {
 		1: {
 			'lessonName': 'Основи конструювання і технології виробництва РЕА/Основи телебачення',
-			'courseLink': 'немає, немає',
+			'courseLink': 'Основи конструювання і технології виробництва РЕА: <a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a><br>Основи телебачення: немає',
 			'lessonLink': 'немає'
 		},
 		2: {
