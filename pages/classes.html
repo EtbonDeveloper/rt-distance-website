@@ -15,10 +15,10 @@
     <header>
       <div class="header-btns">
         <div class="header-btn left-btn">
-          <a href="../index.html"><button type="button" class="index">Головна сторінка</button></a>
+          <button type="button" class="index">Головна сторінка</button>
         </div>
         <div class="header-btn right-btn">
-          <a href="./calls.html"><button type="button" class="calls">Розклад дзвоників</button></a>
+          <button type="button" class="calls">Розклад дзвоників</button>
         </div>
       </div>
       <h1 class="header-text">Сайт дистанційного навчання РТ-211</h1>
@@ -26,10 +26,10 @@
     <div class="alt-wrapper">
       <div class="alt-header-btns">
         <div class="alt-header-btn alt-left-btn">
-          <a href="../index.html"><button type="button" class="index">Головна сторінка</button></a>
+          <button type="button" class="index">Головна сторінка</button>
         </div>
         <div class="alt-header-btn alt-right-btn">
-          <a href="./calls.html"><button type="button" class="calls">Розклад дзвоників</button></a>
+          <button type="button" class="calls">Розклад дзвоників</button>
         </div>
       </div>
     </div>
@@ -49,5 +49,9 @@
     </footer>
   </div>
   <script type="module" src="../js/classes.js"></script>
+  <script>
+    document.querySelectorAll('.index').forEach(btn => btn.onclick = () => location.href = '../index.html');
+    document.querySelectorAll('.calls').forEach(btn => btn.onclick = () => location.href = './calls.html');
+  </script>
 </body>
 </html>
