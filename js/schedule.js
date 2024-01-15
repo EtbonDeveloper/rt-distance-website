@@ -2,8 +2,8 @@ const schedule = {
 	1: {
 		1: {
 			'lessonName': 'Пристрої НВЧ та антени',
-			'courseLink': 'немає',
-			'lessonLink': 'немає'
+			'courseLink': '<a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
+			'lessonLink': '<a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
 		},
 		2: {
 			'lessonName': 'Політологія',
@@ -34,8 +34,8 @@ const schedule = {
 		},
 		4: {
 			'lessonName': 'Радіоприймальні пристрої/Пристрої НВЧ та антени',
-			'courseLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: немає',
-			'lessonLink': 'немає'
+			'courseLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: <a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
+			'lessonLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: <a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
 		}
 	},
 	3: {
@@ -52,7 +52,7 @@ const schedule = {
 		3: {
 			'lessonName': 'ЕОМ та мікропроцесори/Основи автоматики',
 			'courseLink': 'ЕОМ та мікропроцесори: <a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a><br>Основи автоматики: немає',
-			'lessonLink': 'немає'
+			'lessonLink': 'ЕОМ та мікропроцесори: немає<br>Основи автоматики: немає'
 		},
 		4: {
 			'lessonName': 'Соціологія',
@@ -64,7 +64,7 @@ const schedule = {
 		1: {
 			'lessonName': 'Основи конструювання і технології виробництва РЕА/Основи телебачення',
 			'courseLink': 'Основи конструювання і технології виробництва РЕА: <a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a><br>Основи телебачення: немає',
-			'lessonLink': 'немає'
+			'lessonLink': 'Основи конструювання і технології виробництва РЕА: немає<br>Основи телебачення: немає'
 		},
 		2: {
 			'lessonName': 'Основи автоматики',
