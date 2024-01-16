@@ -34,14 +34,14 @@ const schedule = {
 		},
 		4: {
 			'lessonName': 'Радіоприймальні пристрої/Пристрої НВЧ та антени',
-			'courseLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: <a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
+			'courseLink': 'Радіоприймальні пристрої: <a href="https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg" target="_blank">https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg</a><br>Пристрої НВЧ та антени: <a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
 			'lessonLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: <a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
 		}
 	},
 	3: {
 		1: {
 			'lessonName': 'Радіоприймальні пристрої',
-			'courseLink': 'немає',
+			'courseLink': '<a href="https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg" target="_blank">https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg</a>',
 			'lessonLink': 'немає'
 		},
 		2: {
