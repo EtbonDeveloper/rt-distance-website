@@ -30,7 +30,7 @@ const schedule = {
 		3: {
 			'lessonName': 'ЕОМ та мікропроцесори',
 			'courseLink': '<a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a>',
-			'lessonLink': 'немає'
+			'lessonLink': '<a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a>'
 		},
 		4: {
 			'lessonName': 'Радіоприймальні пристрої/Пристрої НВЧ та антени',
@@ -52,7 +52,7 @@ const schedule = {
 		3: {
 			'lessonName': 'ЕОМ та мікропроцесори/Основи автоматики',
 			'courseLink': 'ЕОМ та мікропроцесори: <a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a><br>Основи автоматики: немає',
-			'lessonLink': 'ЕОМ та мікропроцесори: немає<br>Основи автоматики: немає'
+			'lessonLink': 'ЕОМ та мікропроцесори: <a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a><br>Основи автоматики: немає'
 		},
 		4: {
 			'lessonName': 'Соціологія',
