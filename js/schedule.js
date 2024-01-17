@@ -51,7 +51,7 @@ const schedule = {
 		},
 		3: {
 			'lessonName': 'ЕОМ та мікропроцесори/Основи автоматики',
-			'courseLink': 'ЕОМ та мікропроцесори: <a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a><br>Основи автоматики: немає',
+			'courseLink': 'ЕОМ та мікропроцесори: <a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a><br>Основи автоматики: <a href="https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb</a>',
 			'lessonLink': 'ЕОМ та мікропроцесори: <a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a><br>Основи автоматики: немає'
 		},
 		4: {
@@ -68,7 +68,7 @@ const schedule = {
 		},
 		2: {
 			'lessonName': 'Основи автоматики',
-			'courseLink': 'немає',
+			'courseLink': '<a href="https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb</a>',
 			'lessonLink': 'немає'
 		},
 		3: {
@@ -85,7 +85,7 @@ const schedule = {
 		},
 		2: {
 			'lessonName': 'Основи підприємництва',
-			'courseLink': 'немає',
+			'courseLink': '<a href="https://classroom.google.com/c/NTQ1ODQ1NjI4NDM2?cjc=tlvmkja" target="_blank">https://classroom.google.com/c/NTQ1ODQ1NjI4NDM2?cjc=tlvmkja</a>',
 			'lessonLink': 'немає'
 		},
 		3: {
