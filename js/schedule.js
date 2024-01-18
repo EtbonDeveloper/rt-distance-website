@@ -86,7 +86,7 @@ const schedule = {
 		2: {
 			'lessonName': 'Основи підприємництва',
 			'courseLink': '<a href="https://classroom.google.com/c/NTQ1ODQ1NjI4NDM2?cjc=tlvmkja" target="_blank">https://classroom.google.com/c/NTQ1ODQ1NjI4NDM2?cjc=tlvmkja</a>',
-			'lessonLink': 'немає'
+			'lessonLink': '<a href="https://us05web.zoom.us/j/86781094480?pwd=WE9Nc3puOFhKVFppWnoxRjhpWG9nUT09" target="_blank">https://us05web.zoom.us/j/86781094480?pwd=WE9Nc3puOFhKVFppWnoxRjhpWG9nUT09</a>'
 		},
 		3: {
 			'lessonName': 'Основи телебачення',
