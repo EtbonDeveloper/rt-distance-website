@@ -39,6 +39,6 @@ function writeLessonInfo() {
     } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
         lessonInfo.innerText = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
     } else {
-        lessonInfo.innerText = `Зараз: ${currentUATime}. Пари зараз немає, відпочивайте!`;
+        lessonInfo.innerText = `Зараз: ${currentUATime}. Пари немає, відпочивайте!`;
     }
 }
