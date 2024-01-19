@@ -63,7 +63,7 @@ const schedule = {
 	4: {
 		1: {
 			'lessonName': 'Основи конструювання і технології виробництва РЕА/Основи телебачення',
-			'courseLink': 'Основи конструювання і технології виробництва РЕА: <a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a><br>Основи телебачення: <a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz</a>',
+			'courseLink': 'Основи конструювання і технології виробництва РЕА: <a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a><br>Основи телебачення: <a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz?cjc=vo75pbq</a>',
 			'lessonLink': 'Основи конструювання і технології виробництва РЕА: немає<br>Основи телебачення: немає'
 		},
 		2: {
@@ -90,7 +90,7 @@ const schedule = {
 		},
 		3: {
 			'lessonName': 'Основи телебачення',
-			'courseLink': '<a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz</a>',
+			'courseLink': '<a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz?cjc=vo75pbq</a>',
 			'lessonLink': 'немає'
 		}
 	}
