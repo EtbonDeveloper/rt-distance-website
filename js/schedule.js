@@ -35,14 +35,14 @@ const schedule = {
 		4: {
 			'lessonName': 'Радіоприймальні пристрої/Пристрої НВЧ та антени',
 			'courseLink': 'Радіоприймальні пристрої: <a href="https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg" target="_blank">https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg</a><br>Пристрої НВЧ та антени: <a href="https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo" target="_blank">https://classroom.google.com/c/NTg5NTE2MzE5NzA5?cjc=rmuq5oo</a>',
-			'lessonLink': 'Радіоприймальні пристрої: немає<br>Пристрої НВЧ та антени: <a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
+			'lessonLink': 'Радіоприймальні пристрої: <a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a><br>Пристрої НВЧ та антени: <a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
 		}
 	},
 	3: {
 		1: {
 			'lessonName': 'Радіоприймальні пристрої',
 			'courseLink': '<a href="https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg" target="_blank">https://classroom.google.com/c/NjA2OTgxNjYwNjAw?cjc=siqxbxg</a>',
-			'lessonLink': 'немає'
+			'lessonLink': '<a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a>'
 		},
 		2: {
 			'lessonName': 'Іноземна мова (Даниленко та Приступа)',
@@ -52,7 +52,7 @@ const schedule = {
 		3: {
 			'lessonName': 'ЕОМ та мікропроцесори/Основи автоматики',
 			'courseLink': 'ЕОМ та мікропроцесори: <a href="https://distosvitart.gnomio.com/course/view.php?id=17" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=17</a><br>Основи автоматики: <a href="https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb</a>',
-			'lessonLink': 'ЕОМ та мікропроцесори: <a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a><br>Основи автоматики: немає'
+			'lessonLink': 'ЕОМ та мікропроцесори: <a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a><br>Основи автоматики: <a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a>'
 		},
 		4: {
 			'lessonName': 'Соціологія',
@@ -64,12 +64,12 @@ const schedule = {
 		1: {
 			'lessonName': 'Основи конструювання і технології виробництва РЕА/Основи телебачення',
 			'courseLink': 'Основи конструювання і технології виробництва РЕА: <a href="https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5" target="_blank">https://classroom.google.com/c/NjU0MTMzODk2Mjc2?cjc=65sm6o5</a><br>Основи телебачення: <a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz?cjc=vo75pbq</a>',
-			'lessonLink': 'Основи конструювання і технології виробництва РЕА: немає<br>Основи телебачення: немає'
+			'lessonLink': 'Основи конструювання і технології виробництва РЕА: немає<br>Основи телебачення: <a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a>'
 		},
 		2: {
 			'lessonName': 'Основи автоматики',
 			'courseLink': '<a href="https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDMx?cjc=gbdpesb</a>',
-			'lessonLink': 'немає'
+			'lessonLink': '<a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a>'
 		},
 		3: {
 			'lessonName': 'Фізичне виховання',
@@ -91,7 +91,7 @@ const schedule = {
 		3: {
 			'lessonName': 'Основи телебачення',
 			'courseLink': '<a href="https://classroom.google.com/c/MTU2ODExNDMzNDQz" target="_blank">https://classroom.google.com/c/MTU2ODExNDMzNDQz?cjc=vo75pbq</a>',
-			'lessonLink': 'немає'
+			'lessonLink': '<a href="https://t.me/+xlyhWoe5MlEyMDhi" target="_blank">https://t.me/+xlyhWoe5MlEyMDhi</a>'
 		}
 	}
 }
