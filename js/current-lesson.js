@@ -34,7 +34,9 @@ function writeLessonInfo() {
     }
 
     if (lessonObject) {
-        const {lessonName, courseLink, lessonLink} = lessonObject;
+	    const lessonName = lessonObject.lessonName;
+	    const courseLink = lessonObject.courseLink;
+	    const lessonLink = lessonObject.lessonLink;
         lessonInfo.innerHTML = `Сьогодні ${strDayOfWeek}, зараз в ${currentUATime} у нас за розкладом: ${lessonName}<br>Посилання на курс: ${courseLink}<br>Постійне посилання на конференцію: ${lessonLink}`;
     } else if (dayOfWeek === dayOfWeekObject['сб'] || dayOfWeek === dayOfWeekObject['вс']) {
         lessonInfo.innerText = `Зараз: ${currentUATime}. Сьогодні вихідний, відпочивайте!`;
