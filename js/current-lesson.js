@@ -9,9 +9,11 @@ writeLessonInfo();
 setInterval(writeLessonInfo, 1000);
 
 function writeLessonInfo() {
-    const date = new Date;
-    const currentUATime = date.toLocaleTimeString('ua', {timeZone: 'Europe/Kyiv'});
-    const dayOfWeek = dayOfWeekObject[date.toLocaleDateString('ua', {timeZone: 'Europe/Kyiv', weekday: 'short'})];
+    const date = new Date();
+    const currentUADate = new Intl.DateTimeFormat('ua', {timeZone: 'Europe/Kyiv', weekday: 'short', hour: '2-digit', minute: '2-digit', second: '2-digit'}).formatToParts(date);
+    
+    const currentUATime = `${currentUADate.find(part => part.type === 'hour').value}:${currentUADate.find(part => part.type === 'minute').value}:${currentUADate.find(part => part.type === 'second').value}`;
+    const dayOfWeek = dayOfWeekObject[currentUADate.find(part => part.type === 'weekday').value];
     
     let lessonNumber = null;
 
