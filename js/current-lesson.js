@@ -18,22 +18,17 @@ function writeLessonInfo() {
     for (const call in calls) {
         if (currentUATime >= calls[call].startTime && currentUATime <= calls[call].endTime) {
             lessonNumber = call;
-            break;
         }
     }
-
     let lessonObject;
     let strDayOfWeek = null;
-    let numberOfLessons = null;
 
     try {
         lessonObject = schedule[dayOfWeek][lessonNumber];
         strDayOfWeek = strDayOfWeekObject[dayOfWeek];
-        numberOfLessons = schedule[dayOfWeek].numberOfLessons;
     } catch {
         lessonObject = null;
     }
-
     if (lessonObject) {
         const lessonName = lessonObject.lessonName;
         const courseLink = lessonObject.courseLink;
