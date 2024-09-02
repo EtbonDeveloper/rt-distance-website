@@ -1,9 +1,11 @@
-const strDayOfWeekObject = {
-    1: 'Понеділок',
-    2: 'Вівторок',
-    3: 'Середа',
-    4: 'Четвер',
-    5: 'П\'ятниця'
+const dayOfWeekObject = {
+    'понеділок': 1,
+    'вівторок': 2,
+    'середа': 3,
+    'четвер': 4,
+    'пʼятниця': 5,
+    'субота': 6,
+    'неділя': 0
 };
 
-export default strDayOfWeekObject;
+export default dayOfWeekObject;
