@@ -27,10 +27,7 @@ function writeLessonInfo() {
         lessonObject = null;
     }
     if (lessonObject) {
-        const lessonName = lessonObject.lessonName;
-        const courseLink = lessonObject.courseLink;
-        const lessonLink = lessonObject.lessonLink;
-        lessonInfo.innerHTML = `Сьогодні ${strDayOfWeek}, зараз в ${currentUATime} за розкладом ${lessonName}<br>Посилання на курс: ${courseLink}<br>Постійне посилання на конференцію: ${lessonLink}`;
+        lessonInfo.innerHTML = `Сьогодні ${strDayOfWeek}, зараз в ${currentUATime} за розкладом ${lessonObject.lessonName}<br>Посилання на курс: ${lessonObject.courseLink}<br>Постійне посилання на конференцію: ${lessonObject.lessonLink}`;
     } else if (dayOfWeek === 6 || dayOfWeek === 0) {
         lessonInfo.innerText = `Сьогодні ${strDayOfWeek}, зараз в ${currentUATime} за розкладом вихідний, відпочивайте!`;
     } else {
