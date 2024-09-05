@@ -1,7 +1,15 @@
 import schedule from './schedule.js';
 import calls from './calls-object.js';
-import dayOfWeekObject from './day-of-week.js';
 
+const dayOfWeekObject = {
+    'понеділок': 1,
+    'вівторок': 2,
+    'середа': 3,
+    'четвер': 4,
+    'пʼятниця': 5,
+    'субота': 6,
+    'неділя': 0
+};
 const lessonInfo = document.querySelector('#lesson-info');
 
 writeLessonInfo();
