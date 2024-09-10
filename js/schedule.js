@@ -24,8 +24,8 @@ const schedule = {
 		},
 		2: {
 			'lessonName': 'Контроль якості РЕА',
-			'courseLink': 'невідомо',
-			'lessonLink': 'невідомо'
+			'courseLink': '<a href="https://classroom.google.com/c/NzExOTgyMjYzMTY0?cjc=m7bdbdi" target="_blank">https://classroom.google.com/c/NzExOTgyMjYzMTY0?cjc=m7bdbdi</a>',
+			'lessonLink': '<a href="https://us04web.zoom.us/j/72400955257?pwd=B53aUQS3gkEuZMMafU9DnHf9Ac8brb.1" target="_blank">https://us04web.zoom.us/j/72400955257?pwd=B53aUQS3gkEuZMMafU9DnHf9Ac8brb.1</a>'
 		},
 		3: {
 			'lessonName': 'Економіка промисловості',
@@ -63,8 +63,8 @@ const schedule = {
 		},
 		4: {
 			'lessonName': 'Контроль якості РЕА/Конструювання ВЕТ і САПР',
-			'courseLink': '<br>Контроль якості РЕА: невідомо<br>Конструювання ВЕТ і САПР: <a href="https://classroom.google.com/c/NzEwMjU1NDAyOTYy?cjc=mrvc4ky" target="_blank">https://classroom.google.com/c/NzEwMjU1NDAyOTYy?cjc=mrvc4ky</a>',
-			'lessonLink': '<br>Контроль якості РЕА: невідомо<br>Конструювання ВЕТ і САПР: <a href="https://us05web.zoom.us/j/8454965992?pwd=cnNxV0M3a0lReEljRjlPenRCcC9Rdz09" target="_blank">https://us05web.zoom.us/j/8454965992?pwd=cnNxV0M3a0lReEljRjlPenRCcC9Rdz09</a>'
+			'courseLink': '<br>Контроль якості РЕА: <a href="https://classroom.google.com/c/NzExOTgyMjYzMTY0?cjc=m7bdbdi" target="_blank">https://classroom.google.com/c/NzExOTgyMjYzMTY0?cjc=m7bdbdi</a><br>Конструювання ВЕТ і САПР: <a href="https://classroom.google.com/c/NzEwMjU1NDAyOTYy?cjc=mrvc4ky" target="_blank">https://classroom.google.com/c/NzEwMjU1NDAyOTYy?cjc=mrvc4ky</a>',
+			'lessonLink': '<br>Контроль якості РЕА: <a href="https://us04web.zoom.us/j/72400955257?pwd=B53aUQS3gkEuZMMafU9DnHf9Ac8brb.1" target="_blank">https://us04web.zoom.us/j/72400955257?pwd=B53aUQS3gkEuZMMafU9DnHf9Ac8brb.1</a><br>Конструювання ВЕТ і САПР: <a href="https://us05web.zoom.us/j/8454965992?pwd=cnNxV0M3a0lReEljRjlPenRCcC9Rdz09" target="_blank">https://us05web.zoom.us/j/8454965992?pwd=cnNxV0M3a0lReEljRjlPenRCcC9Rdz09</a>'
 		},
 	},
 	5: {
