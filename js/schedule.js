@@ -1,19 +1,19 @@
 const schedule = {
 	1: {
-		2: {
-			'lessonName': 'Апаратура систем зв\'язку та телебачення',
-			'courseLink': '<a href="https://classroom.google.com/c/NzExNjAxMDYzOTY4?cjc=cgjfczk" target="_blank">https://classroom.google.com/c/NzExNjAxMDYzOTY4?cjc=cgjfczk</a>',
-			'lessonLink': '<a href="https://us04web.zoom.us/j/8253570018?pwd=N1NnMXArS21YSGpzeTB2N1pONFFEdz09" target="_blank">https://us04web.zoom.us/j/8253570018?pwd=N1NnMXArS21YSGpzeTB2N1pONFFEdz09</a>'
+		1: {
+			'lessonName': 'Основи ремонту та регулювання РЕА',
+			'courseLink': '<a href="https://distosvitart.gnomio.com/course/view.php?id=22" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=22</a>',
+			'lessonLink': '<a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a>'
 		},
-		3: {
+		2: {
 			'lessonName': 'Радіотехнічні та радіоелектронні системи',
 			'courseLink': '<a href="https://classroom.google.com/c/NzEwMzU2OTI0MjQ2?cjc=dhetudz" target="_blank">https://classroom.google.com/c/NzEwMzU2OTI0MjQ2?cjc=dhetudz</a>',
 			'lessonLink': '<a href="https://meet.google.com/icp-hqmi-non" target="_blank">https://meet.google.com/icp-hqmi-non</a>'
 		},
-		4: {
-			'lessonName': 'Основи ремонту та регулювання РЕА',
-			'courseLink': '<a href="https://distosvitart.gnomio.com/course/view.php?id=22" target="_blank">https://distosvitart.gnomio.com/course/view.php?id=22</a>',
-			'lessonLink': '<a href="https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09" target="_blank">https://us04web.zoom.us/j/3989248377?pwd=WlJlOXZ1dmw1bkZxWlUyd2JGcUM2QT09</a>'
+		3: {
+			'lessonName': 'Апаратура систем зв\'язку та телебачення',
+			'courseLink': '<a href="https://classroom.google.com/c/NzExNjAxMDYzOTY4?cjc=cgjfczk" target="_blank">https://classroom.google.com/c/NzExNjAxMDYzOTY4?cjc=cgjfczk</a>',
+			'lessonLink': '<a href="https://us04web.zoom.us/j/8253570018?pwd=N1NnMXArS21YSGpzeTB2N1pONFFEdz09" target="_blank">https://us04web.zoom.us/j/8253570018?pwd=N1NnMXArS21YSGpzeTB2N1pONFFEdz09</a>'
 		}
 	},
 	2: {
